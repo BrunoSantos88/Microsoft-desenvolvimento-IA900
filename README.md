@@ -1,2 +1,6 @@
 # MIcrosoft-AI-900
-CURSO NO SENAI --- 
+
+Link Learning Path AI 900
+https://learn.microsoft.com/pt-br/training/browse/?terms=ai-900&subjects=data-ai
+
+Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/practice/assessment?assessment-type=practice&assessmentId=26
