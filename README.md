@@ -25,4 +25,8 @@ Os cientistas de dados podem usar todos esses dados para treinar modelos de mach
 
 Por exemplo, suponha que uma organização de conservação ambiental queira que voluntários identifiquem e cataloguem diferentes espécies de flores silvestres usando um aplicativo de celular. A animação a seguir mostra como o machine learning pode ser usado para habilitar esse cenário.
 
-https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif
+
+Licenças empresa: </p>
+Link https://www.microsoft.com/pt-br/microsoft-365/compare-microsoft-365-enterprise-plans
+</p>
+<img src="https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif" width="1000px" align="centter" alt="planos">
