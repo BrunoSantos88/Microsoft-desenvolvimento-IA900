@@ -24,3 +24,5 @@ A resposta é: com base nos dados. No mundo atual, criamos enormes volumes de da
 Os cientistas de dados podem usar todos esses dados para treinar modelos de machine learning que podem fazer previsões e inferências com base nas relações encontradas nos dados.
 
 Por exemplo, suponha que uma organização de conservação ambiental queira que voluntários identifiquem e cataloguem diferentes espécies de flores silvestres usando um aplicativo de celular. A animação a seguir mostra como o machine learning pode ser usado para habilitar esse cenário.
+
+https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif
