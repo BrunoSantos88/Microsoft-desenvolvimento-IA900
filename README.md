@@ -27,6 +27,5 @@ Por exemplo, suponha que uma organização de conservação ambiental queira que
 
 
 Exemplo: </p>
-Link https://www.microsoft.com/pt-br/microsoft-365/compare-microsoft-365-enterprise-plans
 </p>
 <img src="https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif" width="1000px" align="centter" alt="planos">
