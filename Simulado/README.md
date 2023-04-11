@@ -24,3 +24,17 @@ regressão </P>
 agrupamento </P>
 
 Link: https://learn.microsoft.com/pt-br/training/modules/create-classification-model-azure-machine-learning-designer/
+
+
+# Pergunta 3
+
+Uma empresa deseja prever o uso doméstico de água com base no número de pessoas em uma casa, na temperatura do tempo e na época do ano.
+Em termos de rótulos e recursos de dados, qual é o rótulo neste caso de uso?
+
+
+número de pessoas na casa </P>
+temperatura do tempo </P>
+uso de água (correta) </P>
+época do ano </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/use-automated-machine-learning/2-what-is-ml
