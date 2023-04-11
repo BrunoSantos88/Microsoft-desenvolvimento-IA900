@@ -22,3 +22,5 @@ classificação (correta) </P>
 caracterização </P>
 regressão </P>
 agrupamento </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/create-classification-model-azure-machine-learning-designer/
