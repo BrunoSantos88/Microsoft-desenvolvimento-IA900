@@ -76,9 +76,9 @@ extração de frase-chave (correta)  </p>
 reconhecimento de entidade nomeada  (correta) </p>  
 Serviço de Bot do Azure </p>  
 
-Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases
-link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/
-link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/
+Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases </p>  
+link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
+link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
 
 # Pergunta 7
 
