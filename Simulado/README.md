@@ -48,3 +48,5 @@ Qual é a pontuação de confiança retornada pelo serviço de detecção de idi
 1 </P>
 NaN (correta) </P>
 Desconhecido </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
