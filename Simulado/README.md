@@ -50,3 +50,17 @@ NaN (correta) </P>
 Desconhecido </P>
 
 Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
+
+
+Quais são os dois recursos dos Serviços Cognitivos do Azure que podem ser usados para habilitar texto para texto e fala para texto entre vários idiomas? Cada resposta correta apresenta parte da solução.
+
+Selecione todas as respostas que se aplicam.
+
+o serviço de fala  (correta) </p>  
+o serviço Tradutor  (correta)   </p>  
+extração de frase-chave  </p>  
+detecção de idioma  </p>  
+
+link :https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/
+link> https://learn.microsoft.com/pt-br/azure/cognitive-services/translator/
+ 
