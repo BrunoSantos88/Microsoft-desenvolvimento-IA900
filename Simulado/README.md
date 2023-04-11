@@ -51,7 +51,7 @@ Desconhecido </P>
 
 Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
 
-
+# Pergunta 5
 Quais são os dois recursos dos Serviços Cognitivos do Azure que podem ser usados para habilitar texto para texto e fala para texto entre vários idiomas? Cada resposta correta apresenta parte da solução.
 
 Selecione todas as respostas que se aplicam.
@@ -63,4 +63,20 @@ detecção de idioma  </p>
 
 link :https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/
 link> https://learn.microsoft.com/pt-br/azure/cognitive-services/translator/
- 
+
+# Pergunta 6
+
+Quais são os dois recursos dos Serviços Cognitivos do Azure que permitem identificar problemas de dados de perguntas de suporte, bem como identificar pessoas e produtos mencionados? Cada resposta correta apresenta parte da solução.
+
+Selecione todas as respostas que se aplicam.
+
+o serviço de fala </p>  
+Compreensão da linguagem conversacional   </p>  
+extração de frase-chave (correta)  </p>  
+reconhecimento de entidade nomeada  (correta) </p>  
+Serviço de Bot do Azure </p>  
+
+Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases
+link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/
+link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/
+  
