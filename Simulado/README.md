@@ -38,3 +38,13 @@ uso de água (correta) </P>
 época do ano </P>
 
 Link: https://learn.microsoft.com/pt-br/training/modules/use-automated-machine-learning/2-what-is-ml
+
+# Pergunta 4
+
+Qual é a pontuação de confiança retornada pelo serviço de detecção de idioma do processamento de linguagem natural (NLP) para um nome de idioma desconhecido?
+
+
+-1 </P> 
+1 </P>
+NaN (correta) </P>
+Desconhecido </P>
