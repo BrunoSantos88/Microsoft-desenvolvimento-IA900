@@ -86,10 +86,10 @@ Qual princípio de inteligência artificial (IA) responsável define a estrutura
 
 Selecione apenas uma resposta.
 
-responsabilidade (correta)
-justiça
-inclusão
-transparência
+responsabilidade (correta) </p>  
+justiça </p>  
+inclusão </p>  
+transparência </p>  
 
 link: https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai
   
