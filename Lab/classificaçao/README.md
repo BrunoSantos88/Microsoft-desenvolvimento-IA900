@@ -27,3 +27,18 @@ pode ser acessado.
 Depois de criar um recurso adequado na sua assinatura, você pode enviar imagens
 para que o serviço de Pesquisa Visual Computacional execute uma ampla gama de
 tarefas analíticas.
+
+
+- Marcação de recursos visuais
+As descrições de imagens geradas pelo Computer Vision são baseadas em um
+conjunto de milhares de objetos reconhecíveis, que podem ser usados para sugerir
+tags para a imagem.
+Essas tags podem ser associadas à imagem como metadados que resumem os
+atributos da imagem; e pode ser particularmente útil se você deseja indexar uma
+imagem junto com um conjunto de termos-chave que podem ser usados para
+pesquisar imagens com atributos ou conteúdos específicos.
+
+Por exemplo, as tags retornadas para a imagem do Empire State Building incluem:
+- arranha-céu
+- torre
+- prédio
