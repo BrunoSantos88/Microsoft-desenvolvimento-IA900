@@ -80,6 +80,6 @@ configuraçao Lab 12
 Apredizagem lab 12
 
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
+<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
 
 
