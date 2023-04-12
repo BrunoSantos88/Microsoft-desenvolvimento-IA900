@@ -73,7 +73,7 @@ link: https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer
 - Laboratorio Dia 12/04  </p>
 link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
 
-- Na página Dados , na guia Ativos de dados , selecione Criar . Em seguida, configure um ativo de dados com as seguintes configurações:
+# Na página Dados , na guia Ativos de dados , selecione Criar . Em seguida, configure um ativo de dados com as seguintes configurações:
 
 Tipo de dados :
 Nome : pinguin-data
