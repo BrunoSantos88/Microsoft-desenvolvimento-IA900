@@ -70,5 +70,5 @@ Eiffel, com uma confiança de 99,41%.
 Exercício – Analisar imagens com o serviço de Pesquisa Visual Computacional </p>
 link: https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
 
-- Laboratorio Dia 12/04
+- Laboratorio Dia 12/04  </p>
 link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
