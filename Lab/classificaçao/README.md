@@ -64,3 +64,7 @@ como o Taj Mahal e a Estátua da Liberdade.
 - Por exemplo, ao analisar a imagem a seguir para pontos de
 referência, o serviço de Visão Computacional identifica a Torre
 Eiffel, com uma confiança de 99,41%.
+
+
+- Pratica laboratorio 
+Exercício – Analisar imagens com o serviço de Pesquisa Visual Computacional
