@@ -82,6 +82,27 @@ Apredizagem lab 12
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
 
+- Na página Dados , na guia Ativos de dados , selecione Criar . Em seguida, configure um ativo de dados com as seguintes configurações:
+
+Tipo de dados :
+Nome : pinguin-data
+Descrição : dados do pinguim
+Tipo de conjunto de dados : tabular
+Fonte de dados : de arquivos da Web
+URL da Web :
+URL da Web : https://aka.ms/penguin-data
+Ignorar validação de dados : não selecione
+Configurações :
+Formato do arquivo : Delimitado
+Delimitador : Vírgula
+Codificação : UTF-8
+Cabeçalhos de coluna : Somente o primeiro arquivo tem cabeçalhos
+Pular linhas : nenhuma
+O conjunto de dados contém dados de várias linhas : não selecione
+Esquema :
+Incluir todas as colunas exceto Caminho
+Revise os tipos detectados automaticamente
+
 # Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real 
 
 Criar um pipeline de inferência
