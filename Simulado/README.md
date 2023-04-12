@@ -85,9 +85,9 @@ link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-
 Qual princípio de inteligência artificial (IA) responsável define a estrutura dos princípios de governança e organização que atendem aos padrões éticos e legais das soluções de IA?
 Selecione apenas uma resposta.
 responsabilidade (correta) </p>  
-justiça
-inclusão 
-transparência
+justiça  </p>  
+inclusão   </p>  
+transparência  </p>  
 
 link: https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai
   
