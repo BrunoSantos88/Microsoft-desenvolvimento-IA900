@@ -17,14 +17,14 @@ Computacional além de muitos outros serviços cognitivos, como Análise de Text
 Texto e outros. Use esse tipo de recurso se planejar usar vários serviços cognitivos e desejar
 simplificar a administração e o desenvolvimento.
 
-Seja qual for o tipo de recurso que você escolher criar, ele fornecerá duas
+- Seja qual for o tipo de recurso que você escolher criar, ele fornecerá duas
 informações necessárias para usá-lo:
 
-Uma chave usada para autenticar aplicativos cliente.
+- Uma chave usada para autenticar aplicativos cliente.
 Um ponto de extremidade que fornece o endereço HTTP no qual seu recurso
 pode ser acessado.
 
-Depois de criar um recurso adequado na sua assinatura, você pode enviar imagens
+- Depois de criar um recurso adequado na sua assinatura, você pode enviar imagens
 para que o serviço de Pesquisa Visual Computacional execute uma ampla gama de
 tarefas analíticas.
 
