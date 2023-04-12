@@ -82,4 +82,6 @@ Apredizagem lab 12
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
 
+# Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real 
+
 
