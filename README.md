@@ -1,9 +1,13 @@
 # MIcrosoft-AI-900
 
-Link Learning Path AI 900
-https://learn.microsoft.com/pt-br/training/browse/?terms=ai-900&subjects=data-ai
+Link Learning Path AI 900 </p>
+https://learn.microsoft.com/pt-br/training/browse/?terms=ai-900&subjects=data-ai </p>
 
-Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/practice/assessment?assessment-type=practice&assessmentId=26
+Simulado </p>
+Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/practice/assessment?assessment-type=practice&assessmentId=26 </p>
+
+LAB </p>
+link: https://microsoftlearning.github.io/AI-900-AIFundamentals/  </p>
 
 #Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
 

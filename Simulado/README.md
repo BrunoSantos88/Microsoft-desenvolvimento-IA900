@@ -1,31 +1,95 @@
-# MIcrosoft-AI-900
+# Simulado
 
-Link Learning Path AI 900
-https://learn.microsoft.com/pt-br/training/browse/?terms=ai-900&subjects=data-ai
+# Pergunta 1
 
-Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/practice/assessment?assessment-type=practice&assessmentId=26
+Você precisa identificar valores numéricos que representem a probabilidade de humanos desenvolverem diabetes com base na idade e no percentual de gordura corporal.
 
-#Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
+Que tipo de modelo de aprendizado de máquina você deve usar?
 
-O que é IA?
-Em síntese, a IA é a criação de um software que imita comportamentos e capacidades humanos. As principais cargas de trabalho incluem:
+R: Regressão linear múltipla
 
-Machine learning – geralmente é a base de um sistema de IA e é como "ensinamos" um modelo de computador a fazer previsões e tirar conclusões com base nos dados.
-Detecção de anomalias – a capacidade de detectar erros ou atividade incomum automaticamente em um sistema.
-Pesquisa Visual Computacional – a capacidade do software de interpretar o mundo visualmente por meio de câmeras, vídeos e imagens.
-Processamento de idioma natural – a capacidade de um computador de interpretar um idioma escrito ou falado e responder à mesma altura.
-Mineração de conhecimento: a capacidade de extrair informações de grandes volumes de dados muitas vezes não estruturados para criar um repositório de conhecimento pesquisável.
+Explicaçao: A regressão linear múltipla modela uma relação entre dois ou mais recursos e um único rótulo, que corresponde ao cenário deste item. A regressão linear usa um único recurso. A regressão logística é um tipo de modelo de classificação, que retorna um valor booleano ou uma decisão categórica. O agrupamento hierárquico agrupa pontos de dados que possuem características semelhantes.
 
-# Como o machine learning funciona
-Então, como os computadores aprendem?
+Link: https://learn.microsoft.com/pt-br/training/modules/understand-classification-machine-learning/2-what-is-classification
 
-A resposta é: com base nos dados. No mundo atual, criamos enormes volumes de dados à medida que vivemos nossas rotinas. De mensagens de texto, emails e postagens em mídias sociais que enviamos a fotografias e vídeos que fazemos em nossos telefones, geramos enormes quantidades de informações. Mais dados ainda são criados por milhões de sensores em nossas residências, em nossos carros, em nossas cidades, em nossa infraestrutura de transporte pública e em nossas fábricas.
+# Pergunta 2
+Uma organização de assistência médica tem um conjunto de dados que consiste em varreduras de fraturas ósseas categorizadas usando tipos de fratura predefinidos. A organização quer usar o aprendizado de máquina para detectar os diferentes tipos de fraturas ósseas para novas varreduras antes que as varreduras sejam enviadas para um médico.
 
-Os cientistas de dados podem usar todos esses dados para treinar modelos de machine learning que podem fazer previsões e inferências com base nas relações encontradas nos dados.
-
-Por exemplo, suponha que uma organização de conservação ambiental queira que voluntários identifiquem e cataloguem diferentes espécies de flores silvestres usando um aplicativo de celular. A animação a seguir mostra como o machine learning pode ser usado para habilitar esse cenário.
+Que tipo de aprendizado de máquina é esse?
 
 
-Exemplo: </p>
-</p>
-<img src="https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif" width="1000px" align="centter" alt="planos">
+classificação (correta) </P>
+caracterização </P>
+regressão </P>
+agrupamento </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/create-classification-model-azure-machine-learning-designer/
+
+
+# Pergunta 3
+
+Uma empresa deseja prever o uso doméstico de água com base no número de pessoas em uma casa, na temperatura do tempo e na época do ano.
+Em termos de rótulos e recursos de dados, qual é o rótulo neste caso de uso?
+
+
+número de pessoas na casa </P>
+temperatura do tempo </P>
+uso de água (correta) </P>
+época do ano </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/use-automated-machine-learning/2-what-is-ml
+
+# Pergunta 4
+
+Qual é a pontuação de confiança retornada pelo serviço de detecção de idioma do processamento de linguagem natural (NLP) para um nome de idioma desconhecido?
+
+
+-1 </P> 
+1 </P>
+NaN (correta) </P>
+Desconhecido </P>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
+
+# Pergunta 5
+Quais são os dois recursos dos Serviços Cognitivos do Azure que podem ser usados para habilitar texto para texto e fala para texto entre vários idiomas? Cada resposta correta apresenta parte da solução.
+
+Selecione todas as respostas que se aplicam.
+
+o serviço de fala  (correta) </p>  
+o serviço Tradutor  (correta)   </p>  
+extração de frase-chave  </p>  
+detecção de idioma  </p>  
+
+link :https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/
+link> https://learn.microsoft.com/pt-br/azure/cognitive-services/translator/
+
+# Pergunta 6
+
+Quais são os dois recursos dos Serviços Cognitivos do Azure que permitem identificar problemas de dados de perguntas de suporte, bem como identificar pessoas e produtos mencionados? Cada resposta correta apresenta parte da solução.
+
+Selecione todas as respostas que se aplicam.
+
+o serviço de fala </p>  
+Compreensão da linguagem conversacional   </p>  
+extração de frase-chave (correta)  </p>  
+reconhecimento de entidade nomeada  (correta) </p>  
+Serviço de Bot do Azure </p>  
+
+Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases </p>  
+link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
+link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
+
+# Pergunta 7
+
+Qual princípio de inteligência artificial (IA) responsável define a estrutura dos princípios de governança e organização que atendem aos padrões éticos e legais das soluções de IA?
+
+Selecione apenas uma resposta.
+
+responsabilidade (correta) </p>  
+justiça </p>  
+inclusão </p>  
+transparência </p>  
+
+link: https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai
+  
