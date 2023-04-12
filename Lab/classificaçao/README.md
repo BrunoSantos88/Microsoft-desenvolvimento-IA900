@@ -137,7 +137,7 @@ este o serviço
 Na página Endpoints , abra o endpoint em tempo real predict-penguin-clusters e selecione a guia Teste .
 
 
-Apredizagem lab 12
+Endpoint lab 12
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231487387-def1664c-e63b-4d02-a464-fdb8bf680940.png">
 
