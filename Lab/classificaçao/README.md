@@ -75,4 +75,4 @@ link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-
 
 configuraçao Lab 12
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="1000px" align="centter" alt="riscodeuser">
+<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
