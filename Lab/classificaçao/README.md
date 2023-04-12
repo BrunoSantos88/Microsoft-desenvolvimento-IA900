@@ -123,4 +123,14 @@ Apredizagem lab 12
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231485020-0a24a08a-209b-4826-bb19-8700402bb281.png">
 
+ # Deploy
+ 
+- Implante um novo endpoint em tempo real, usando as seguintes configurações:
+Nome : prever-pinguim-clusters
+Descrição : Pinguins de cluster.
+Tipo de computação : instância de contêiner do Azure
+Aguarde até que o serviço da Web seja implantado - isso pode levar vários minutos.
+
+Para visualizar o status da implantação, expanda o painel esquerdo selecionando o ícone de menu no canto superior esquerdo da tela. Visualize a página Endpoints (em Ativos ) e selecione predict-pinguim-clusters . Quando a implantação for concluída, o estado de implantação mudará para íntegro .
+
 
