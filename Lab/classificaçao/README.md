@@ -73,15 +73,6 @@ link: https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer
 - Laboratorio Dia 12/04  </p>
 link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
 
-configuraçao Lab 12
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
-
-Apredizagem lab 12
-
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
-
 - Na página Dados , na guia Ativos de dados , selecione Criar . Em seguida, configure um ativo de dados com as seguintes configurações:
 
 Tipo de dados :
@@ -103,6 +94,16 @@ Esquema :
 Incluir todas as colunas exceto Caminho
 Revise os tipos detectados automaticamente
 
+configuraçao Lab 12
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
+
+Apredizagem lab 12
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
+
+
+
 # Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real 
 
 Criar um pipeline de inferência
@@ -117,5 +118,9 @@ Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferên
 Navegue até Configurações no menu superior direito. Em Detalhes do rascunho , renomeie o novo pipeline para Predict Penguin Clusters e revise o novo pipeline. As transformações e o modelo de cluster em seu pipeline de treinamento fazem parte desse pipeline. O modelo treinado será usado para pontuar os novos dados. O pipeline também contém uma saída de serviço da web para retornar resultados.
 
 Você fará as seguintes alterações no pipeline de inferência:
+
+Apredizagem lab 12
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/231485020-0a24a08a-209b-4826-bb19-8700402bb281.png">
 
 
