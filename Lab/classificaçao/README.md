@@ -42,3 +42,10 @@ Por exemplo, as tags retornadas para a imagem do Empire State Building incluem:
 - arranha-céu
 - torre
 - prédio
+
+# Detecção de marcas
+
+- Se uma marca conhecida for detectada, o serviço retornará uma resposta que
+contém o nome da marca, uma pontuação de confiança (de 0 a 1 indicando quão
+positiva é a identificação) e uma caixa delimitadora (coordenadas) para onde na
+imagem a marca detectada foi encontrado.
