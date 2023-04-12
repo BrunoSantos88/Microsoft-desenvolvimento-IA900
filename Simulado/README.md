@@ -79,15 +79,4 @@ Serviço de Bot do Azure </p>
 Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases </p>  
 link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
 link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
-
-# Pergunta 7
-
-Qual princípio de inteligência artificial (IA) responsável define a estrutura dos princípios de governança e organização que atendem aos padrões éticos e legais das soluções de IA?
-Selecione apenas uma resposta.
-responsabilidade (correta) </p>  
-justiça  </p>  
-inclusão   </p>  
-transparência  </p>  
-
-link: https://learn.microsoft.com/pt-br/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai
   
