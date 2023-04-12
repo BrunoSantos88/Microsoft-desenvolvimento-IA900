@@ -49,3 +49,18 @@ Por exemplo, as tags retornadas para a imagem do Empire State Building incluem:
 contém o nome da marca, uma pontuação de confiança (de 0 a 1 indicando quão
 positiva é a identificação) e uma caixa delimitadora (coordenadas) para onde na
 imagem a marca detectada foi encontrado.
+
+# Detecção de conteúdo específico do domínio
+
+Ao categorizar uma imagem, o serviço Computer Vision
+oferece suporte a dois modelos de domínio especializados:
+- Celebridades - O serviço inclui um modelo que foi
+treinado para identificar milhares de celebridades
+conhecidas do mundo dos esportes, entretenimento e
+negócios.
+- Marcos - O serviço pode identificar marcos famosos,
+como o Taj Mahal e a Estátua da Liberdade.
+
+- Por exemplo, ao analisar a imagem a seguir para pontos de
+referência, o serviço de Visão Computacional identifica a Torre
+Eiffel, com uma confiança de 99,41%.
