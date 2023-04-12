@@ -84,4 +84,17 @@ Apredizagem lab 12
 
 # Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real 
 
+Criar um pipeline de inferência
+No estúdio Azure Machine Learning, expanda o painel esquerdo selecionando o ícone de menu no canto superior esquerdo da tela. Clique em Trabalhos (em Ativos ) para ver todos os trabalhos executados. Selecione o experimento mslearn-penguin-training e, em seguida, selecione o pipeline Train Penguin Clustering .
+
+Localize o menu acima da tela e clique em Create inference pipeline . Pode ser necessário expandir a tela até o máximo e clicar no ícone … no canto superior direito da tela para encontrar Create inference pipeline no menu.
+
+Captura de tela do local do pipeline de inferência de criação.
+
+Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real . Após alguns segundos, uma nova versão de seu pipeline chamada Train Penguin Clustering-real time inference será aberta.
+
+Navegue até Configurações no menu superior direito. Em Detalhes do rascunho , renomeie o novo pipeline para Predict Penguin Clusters e revise o novo pipeline. As transformações e o modelo de cluster em seu pipeline de treinamento fazem parte desse pipeline. O modelo treinado será usado para pontuar os novos dados. O pipeline também contém uma saída de serviço da web para retornar resultados.
+
+Você fará as seguintes alterações no pipeline de inferência:
+
 
