@@ -133,4 +133,7 @@ Aguarde até que o serviço da Web seja implantado - isso pode levar vários min
 
 Para visualizar o status da implantação, expanda o painel esquerdo selecionando o ícone de menu no canto superior esquerdo da tela. Visualize a página Endpoints (em Ativos ) e selecione predict-pinguim-clusters . Quando a implantação for concluída, o estado de implantação mudará para íntegro .
 
+este o serviço
+Na página Endpoints , abra o endpoint em tempo real predict-penguin-clusters e selecione a guia Teste .
+
 
