@@ -72,3 +72,7 @@ link: https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer
 
 - Laboratorio Dia 12/04  </p>
 link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
+
+configuraçao Lab 12
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/230627260-94a9eb3c-d893-4d74-aaab-19c20f26e136.png" max-width="100px" width="1000px" align="centter" alt="riscodeuser">
