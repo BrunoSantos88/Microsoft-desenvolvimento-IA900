@@ -1,1 +1,1 @@
-# Lab Explore image classification
+# Explorar a classificação de imagens
