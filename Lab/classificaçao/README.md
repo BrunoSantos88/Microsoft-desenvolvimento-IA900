@@ -213,5 +213,7 @@ Apredizagem lab 14
 
 <img src="https://user-images.githubusercontent.com/91704169/231777698-012fca67-3633-4348-8661-50715bf28ff2.png">  width="400px" align="right" alt="riscodeuser">
 
+<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="center" alt="riscodeuser">
+
 
 
