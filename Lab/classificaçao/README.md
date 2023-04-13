@@ -71,6 +71,8 @@ Apredizagem lab 13-04
 <img src="https://user-images.githubusercontent.com/91704169/231777698-012fca67-3633-4348-8661-50715bf28ff2.png"  max-width="100px" width="480px" align="right" alt="riscodeuser"> </p>
 
 
+
+# Exemplos </p>
 <img src="https://user-images.githubusercontent.com/91704169/231834294-e39f8150-0a0c-40f3-8f2c-a087ce83b6d2.png" max-width="100px" width="1000" align="center" alt="riscodeuser">
 
 
