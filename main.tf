@@ -2,5 +2,5 @@
 
  #LAB CognitiveServices
 module "Cognitive" {
-  source = "./cognitive"   
+  source = "./Cognitive"   
 }
