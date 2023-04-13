@@ -191,3 +191,6 @@ ID de Projeto: a ID exclusiva do projeto de Visão Personalizada que você criou
 Nome do modelo: o nome que você atribuiu ao modelo durante a publicação.
 Ponto de extremidade de previsão: o endereço HTTP dos pontos de extremidade do recurso de previsão no qual você publicou o modelo (não o recurso de treinamento).
 Chave de previsão: a chave de autenticação do recurso de previsão no qual você publicou o modelo (não o recurso de treinamento).
+
+
+# Exercício – Criar uma solução de detecção de objetos
