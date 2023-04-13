@@ -195,19 +195,8 @@ Chave de previsão: a chave de autenticação do recurso de previsão no qual vo
 
 # Exercício – Criar uma solução de detecção de objetos
 
-# Usos da detecção de objetos
-Alguns aplicativos de exemplo da detecção de objetos incluem:
+A detecção de objetos é uma forma de pesquisa visual computacional na qual um modelo de machine learning é treinado para classificar instâncias individuais de objetos em uma imagem e indicar uma caixa delimitadora que marca o local. Você pode pensar nisso como uma progressão da classificação de imagem (na qual o modelo responde à pergunta "de que se trata essa imagem?") para criar soluções em que podemos perguntar ao modelo "quais objetos estão nessa imagem e onde eles estão?".
 
-Verificação da segurança da construção: avaliar a segurança de uma construção analisando as imagens de seu interior em busca de extintores de incêndios ou outros equipamentos de emergência.
-Auxílio de direção: a criação de software para carros ou veículos autônomos com funcionalidades de indicação de faixa. O software pode detectar se há um carro em outra faixa e se o carro do motorista está dentro das próprias faixas.
-Detecção de tumores: imagens médicas como uma MRI ou raios-X, que podem detectar objetos conhecidos para chegar a um diagnóstico médico.
-Objetivos de aprendizagem
-Saiba como usar o serviço de Visão Personalizada para criar uma solução de detecção de imagens. Neste módulo, você vai:
-
-# Identificar serviços no Azure para criar uma solução de detecção de objetos.
-Provisionar um recurso de Visão Personalizada.
-Treinar um modelo de detecção de objetos.
-Publicar e consumir um modelo de detecção de objetos.
-
+link: https://learn.microsoft.com/pt-br/training/modules/detect-objects-images-custom-vision/3-create-object-detection-solution
 
 #  Detectar e analisar rostos com o serviço de Detecção Facial
