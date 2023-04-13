@@ -1,6 +1,5 @@
-# Explorar a classificação de imagens
 
-# RECURSOS DO AZURE PARA A PESQUISA VISUAL COMPUTACIONAL
+# RECURSOS DO AZURE PARA A PESQUISA VISUAL COMPUTACIONAL EM DESIGNER
 
 Para usar o serviço de Pesquisa Visual Computacional é preciso criar um recurso para ele na sua
 assinatura do Azure. Você pode usar qualquer um dos seguintes tipos de recurso:
