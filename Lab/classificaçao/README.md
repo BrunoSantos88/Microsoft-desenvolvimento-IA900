@@ -207,7 +207,7 @@ A detecção facial envolve a identificação de regiões de uma imagem que cont
 Análise facial
 Mudando além da detecção facial simples, alguns algoritmos também podem retornar outras informações, como pontos de referência faciais (nariz, olhos, sobrancelhas, lábios e outros).
 
-Apredizagem lab 14
+Apredizagem lab 13-04
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231777268-58c395c0-ca3f-41b8-aa4c-3aaac4fe7746.png"  max-width="100px" width="480px" align="left" alt="riscodeuser">
 
