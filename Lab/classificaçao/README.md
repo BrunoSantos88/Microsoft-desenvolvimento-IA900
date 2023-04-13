@@ -200,3 +200,15 @@ A detecção de objetos é uma forma de pesquisa visual computacional na qual um
 link: https://learn.microsoft.com/pt-br/training/modules/detect-objects-images-custom-vision/3-create-object-detection-solution
 
 #  Detectar e analisar rostos com o serviço de Detecção Facial
+
+Detecção facial
+A detecção facial envolve a identificação de regiões de uma imagem que contêm um rosto humano, normalmente retornando as coordenadas da caixa delimitadora que formam um retângulo em volta do rosto, desta maneira:
+
+Análise facial
+Mudando além da detecção facial simples, alguns algoritmos também podem retornar outras informações, como pontos de referência faciais (nariz, olhos, sobrancelhas, lábios e outros).
+
+Apredizagem lab 14
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
+
+
