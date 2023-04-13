@@ -209,7 +209,7 @@ Mudando além da detecção facial simples, alguns algoritmos também podem reto
 
 Apredizagem lab 14
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231777268-58c395c0-ca3f-41b8-aa4c-3aaac4fe7746.png"  max-width="100px" width="800px" align="left" alt="riscodeuser">
+<img src="https://user-images.githubusercontent.com/91704169/231777268-58c395c0-ca3f-41b8-aa4c-3aaac4fe7746.png"  max-width="100px" width="400px" align="left" alt="riscodeuser">
 
 <img src="https://user-images.githubusercontent.com/91704169/231777698-012fca67-3633-4348-8661-50715bf28ff2.png"  max-width="100px" width="400px" align="right" alt="riscodeuser">
 
