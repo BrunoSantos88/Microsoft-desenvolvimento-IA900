@@ -3,9 +3,9 @@ provider "azurerm" {
 }
 
 resource "azurerm_cognitive_services_account" "example" {
-  name                = "example-cogsvc"
+  name                = "cogsvc"
   location            = "eastus"
-  resource_group_name = "example-resource-group"
+  resource_group_name = "cogsvcserver"
   kind                = "CognitiveServices"
   sku {
     name = "S0"
