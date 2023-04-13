@@ -1,17 +1,18 @@
-provider "azurerm" {
-  features {}
+resource "azurerm_resource_group" "example" {
+  name     = "cognitive"
+  location = "East US"
 }
 
-resource "azurerm_cognitive_services_account" "example" {
-  name                = "cogsvc"
-  location            = "eastus"
-  resource_group_name = "cogsvcserver"
-  kind                = "CognitiveServices"
-  sku {
-    name = "S0"
-  }
-  identity {
-    type = "SystemAssigned"
+resource "azurerm_cognitive_account" "LabCognitive" {
+  name                = "cognitiveAccont"
+  location            = azurerm_resource_group.example.location
+  resource_group_name = azurerm_resource_group.example.name
+  kind                = "Face"
+
+  sku_name = "S0"
+
+  tags = {
+    Acceptance = "Test"
   }
 }
 
