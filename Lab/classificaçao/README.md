@@ -100,7 +100,7 @@ configuraçao Lab 12
 
 Apredizagem lab 12
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
+<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser"max-width="100px" width="600px" align="centter" alt="riscodeuser">
 
 
 
