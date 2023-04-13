@@ -148,3 +148,17 @@ link: https://learn.microsoft.com/pt-br/training/modules/classify-images-custom-
 
 Criar um projeto de Visão Personalizada
 Para treinar um modelo de detecção de objetos, você precisa criar um projeto de Visão Personalizada com base em seu recurso de treinamento. Para fazer isso, você usará o portal de Visão Personalizada.
+
+Baixe e extraia as imagens de treinamento do https://aka.ms/fruit-images. Essas imagens são fornecidas em uma pasta compactada que, quando extraída, contém subpastas chamadas maçã, banana e laranja.
+
+Em outra guia do navegador, abra o portal de Visão Personalizada em https://customvision.ai. Caso solicitado, entre usando a conta Microsoft associada à sua assinatura do Azure e concorde com os termos de serviço.
+
+No portal de Visão Personalizada, crie um projeto com as seguintes configurações:
+
+Nome: Check-out na Mercearia
+Descrição: classificação de imagem para mercearia
+Recurso: o recurso de Visão Personalizada criado anteriormente
+Tipos de Projeto: Classificação
+Tipos de classificação: Multiclasse (tag única por imagem)
+Domínios: comida
+
