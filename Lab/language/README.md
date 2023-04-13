@@ -51,6 +51,8 @@ Linhas: as linhas de texto em uma página.
 Palavras - As palavras em uma linha de texto, incluindo as coordenadas da caixa delimitadora e o próprio texto.
 Cada linha e palavra inclui coordenadas de caixa delimitadora indicando sua posição na página.
 
+# Exercício – Explorar o reconhecimento óptico de caracteres com a API de Leitura
+
 
 
 
