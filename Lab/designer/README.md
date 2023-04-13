@@ -1,4 +1,6 @@
 
+LAB 12/04
+
 # RECURSOS DO AZURE PARA A PESQUISA VISUAL COMPUTACIONAL EM DESIGNER
 
 Para usar o serviço de Pesquisa Visual Computacional é preciso criar um recurso para ele na sua
