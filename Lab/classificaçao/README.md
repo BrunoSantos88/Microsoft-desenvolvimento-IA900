@@ -96,7 +96,7 @@ Revise os tipos detectados automaticamente
 
 configuraçao Lab 12
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
+<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="600px" align="centter" alt="riscodeuser">
 
 Apredizagem lab 12
 </p>
