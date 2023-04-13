@@ -141,4 +141,7 @@ Endpoint lab 12
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/231487387-def1664c-e63b-4d02-a464-fdb8bf680940.png">
 
+# LAB dia 13/04 
 
+# Classificaçao de imagens
+link: https://learn.microsoft.com/pt-br/training/modules/classify-images-custom-vision/3-create-image-classifier
