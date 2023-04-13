@@ -53,6 +53,8 @@ Cada linha e palavra inclui coordenadas de caixa delimitadora indicando sua posi
 
 # Exercício – Explorar o reconhecimento óptico de caracteres com a API de Leitura
 
+link: https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/03d-read-text-computer-vision.html
+
 
 
 
