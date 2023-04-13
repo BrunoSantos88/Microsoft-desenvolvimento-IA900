@@ -161,4 +161,3 @@ Recurso: o recurso de Visão Personalizada criado anteriormente
 Tipos de Projeto: Classificação
 Tipos de classificação: Multiclasse (tag única por imagem)
 Domínios: comida
-
