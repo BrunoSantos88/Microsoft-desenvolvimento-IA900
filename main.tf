@@ -1,6 +1,6 @@
 # SELECIONAR MODULO ANTES DE INICIAR TERRAFORM
 
- #LAB VIRTUAL NETWORK
+ #LAB CognitiveServices
 module "Cognitive Services" {
-  source = "./Cognitive Services"   
+  source = "./CognitiveServices"   
 }
