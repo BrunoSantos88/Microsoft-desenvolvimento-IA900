@@ -182,7 +182,7 @@ Precisão: Que percentual de previsões de classe o modelo identificou corretame
 Recall: Qual percentual das previsões de classe feitas pelo modelo estava correta? Por exemplo, se houver dez imagens de maçãs e o modelo tiver encontrado sete delas, o recall será de 0,7 (70%).
 mAP (Precisão Média): uma métrica geral que leva em consideração a precisão e o recall entre todas as classes).
 
-Usar o modelo para previsão
+# Usar o modelo para previsão
 Depois que você tiver treinado o modelo e estiver satisfeito com o desempenho avaliado dele, poderá publicar o modelo em seu recurso de previsão. Ao publicar o modelo, você pode atribuir um nome a ele (o padrão é "IteraçãoX", em que X é o número de vezes que você treinou o modelo).
 
 Para usar seu modelo, os desenvolvedores de aplicativos cliente precisam das seguintes informações:
