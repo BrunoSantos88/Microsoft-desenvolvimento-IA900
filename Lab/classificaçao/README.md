@@ -121,7 +121,7 @@ Você fará as seguintes alterações no pipeline de inferência:
 
 Apredizagem lab 12
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231485020-0a24a08a-209b-4826-bb19-8700402bb281.png">
+<img src="https://user-images.githubusercontent.com/91704169/231485020-0a24a08a-209b-4826-bb19-8700402bb281.png" max-width="100px" width="600px" align="centter" alt="riscodeuser">
 
  # Deploy
  
@@ -139,7 +139,7 @@ Na página Endpoints , abra o endpoint em tempo real predict-penguin-clusters e 
 
 Endpoint lab 12
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/231487387-def1664c-e63b-4d02-a464-fdb8bf680940.png">
+<img src="https://user-images.githubusercontent.com/91704169/231487387-def1664c-e63b-4d02-a464-fdb8bf680940.png"max-width="100px" width="600px" align="centter" alt="riscodeuser">
 
 # LAB dia 13/04 
 
