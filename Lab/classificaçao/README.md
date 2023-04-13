@@ -161,3 +161,14 @@ Recurso: o recurso de Visão Personalizada criado anteriormente
 Tipos de Projeto: Classificação
 Tipos de classificação: Multiclasse (tag única por imagem)
 Domínios: comida
+
+# O que é a detecção de objetos?
+
+Vamos dar uma olhada no exemplo de detecção de objeto. Considere a seguinte imagem:
+Various pieces of fruit
+Um modelo de detecção de objetos pode ser usado para identificar os objetos individuais nesta imagem e retornar as seguintes informações:
+A banana, and orange, and an apple, each indicated by a bounding box and a probability score
+Observe que um modelo de detecção de objetos retorna as seguintes informações:
+A classe de cada objeto identificado na imagem.
+A pontuação de probabilidade da classificação de objetos (que você pode interpretar como a confiança de a classe prevista estar correta)
+As coordenadas de uma caixa delimitadora para cada objeto.
