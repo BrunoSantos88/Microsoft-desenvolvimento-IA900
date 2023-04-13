@@ -172,3 +172,22 @@ Observe que um modelo de detecção de objetos retorna as seguintes informaçõe
 A classe de cada objeto identificado na imagem.
 A pontuação de probabilidade da classificação de objetos (que você pode interpretar como a confiança de a classe prevista estar correta)
 As coordenadas de uma caixa delimitadora para cada objeto.
+
+Treinamento e avaliação de modelo
+Para treinar o modelo, você pode usar o portal da Visão Personalizada ou, se tiver a experiência de codificação necessária, poderá usar um dos SDKs (Software Development Kits) específicos a uma linguagem de programação do Serviço de Visão Personalizada. O treinamento de um modelo de detecção de objetos pode levar algum tempo, dependendo do número de imagens de treinamento, classes e objetos dentro de cada imagem.
+
+O processo de treinamento de modelo é um processo iterativo no qual o Serviço de Visão Personalizada treina repetidamente o modelo usando alguns dos dados, mas mantém alguns para avaliar o modelo. Ao final do processo de treinamento, o desempenho do modelo treinado é indicado pelas seguintes métricas de avaliação:
+
+Precisão: Que percentual de previsões de classe o modelo identificou corretamente? Por exemplo, se o modelo prevê que dez imagens são laranjas, das quais oito eram mesmo laranjas, a precisão é de 0,8 (80%).
+Recall: Qual percentual das previsões de classe feitas pelo modelo estava correta? Por exemplo, se houver dez imagens de maçãs e o modelo tiver encontrado sete delas, o recall será de 0,7 (70%).
+mAP (Precisão Média): uma métrica geral que leva em consideração a precisão e o recall entre todas as classes).
+
+Usar o modelo para previsão
+Depois que você tiver treinado o modelo e estiver satisfeito com o desempenho avaliado dele, poderá publicar o modelo em seu recurso de previsão. Ao publicar o modelo, você pode atribuir um nome a ele (o padrão é "IteraçãoX", em que X é o número de vezes que você treinou o modelo).
+
+Para usar seu modelo, os desenvolvedores de aplicativos cliente precisam das seguintes informações:
+
+ID de Projeto: a ID exclusiva do projeto de Visão Personalizada que você criou para treinar o modelo.
+Nome do modelo: o nome que você atribuiu ao modelo durante a publicação.
+Ponto de extremidade de previsão: o endereço HTTP dos pontos de extremidade do recurso de previsão no qual você publicou o modelo (não o recurso de treinamento).
+Chave de previsão: a chave de autenticação do recurso de previsão no qual você publicou o modelo (não o recurso de treinamento).
