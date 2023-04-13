@@ -27,6 +27,30 @@ Seja qual for o tipo de recurso que você escolher criar, ele fornecerá duas in
 Uma chave usada para autenticar aplicativos cliente.
 Um ponto de extremidade que fornece o endereço HTTP no qual seu recurso pode ser acessado.
 
+# Use o serviço de Pesquisa Visual Computacional para ler texto
+
+Muitas vezes, uma imagem contém texto. Ele pode ser texto digitado ou manuscrito. Alguns exemplos comuns são imagens com sinais de estrada, documentos digitalizados que estão em um formato de imagem, como formatos de arquivo JPEG ou PNG, ou até mesmo uma imagem tirada de um quadro branco usado durante uma reunião.
+
+O serviço Pesquisa Visual Computacional fornece uma interface de programação de aplicativos (API) que você pode usar para ler textos em imagens: a API de Leitura.
+
+# A API de Leitura
+
+A API de Leitura usa os modelos de reconhecimento mais recentes e é otimizada para imagens que têm uma quantidade significativa de texto ou um ruído visual considerável.
+
+A API de Leitura pode lidar com documentos digitalizados que contém muito texto. Ela também tem a capacidade de determinar automaticamente o modelo de reconhecimento adequado a ser usado, levando em consideração linhas de texto e imagens de suporte com texto impresso, além de reconhecer manuscritos.
+
+Como a API de Leitura pode trabalhar com documentos grandes, ela funciona de forma assíncrona para não bloquear seu aplicativo enquanto ele está lendo o conteúdo e retornando resultados para seu aplicativo. Isso significa que, para usar a API de Leitura, seu aplicativo deve usar um processo de três etapas:
+
+Enviar uma imagem para a API e recuperar uma ID de operação em resposta.
+Usa a ID da operação para verificar o status da operação de análise de imagem e aguardar até que ela seja concluída.
+Recuperar os resultados da operação.
+Os resultados da API de Leitura são organizados na seguinte hierarquia:
+
+Páginas: uma para cada página de texto, incluindo informações sobre o tamanho e a orientação da página.
+Linhas: as linhas de texto em uma página.
+Palavras - As palavras em uma linha de texto, incluindo as coordenadas da caixa delimitadora e o próprio texto.
+Cada linha e palavra inclui coordenadas de caixa delimitadora indicando sua posição na página.
+
 
 
 
