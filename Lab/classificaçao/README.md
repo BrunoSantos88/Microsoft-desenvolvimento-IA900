@@ -145,3 +145,6 @@ Endpoint lab 12
 
 # Classificaçao de imagens
 link: https://learn.microsoft.com/pt-br/training/modules/classify-images-custom-vision/3-create-image-classifier
+
+Criar um projeto de Visão Personalizada
+Para treinar um modelo de detecção de objetos, você precisa criar um projeto de Visão Personalizada com base em seu recurso de treinamento. Para fazer isso, você usará o portal de Visão Personalizada.
