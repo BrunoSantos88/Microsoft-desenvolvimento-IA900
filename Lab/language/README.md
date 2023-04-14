@@ -69,7 +69,7 @@ que podem interpretar dados de formulário por:
 ▪ Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
 outros.
 
-# conhecimento de Formulários (cupom)
+# Conhecimento de Formulários (cupom)
 
 Usando o Reconhecimento de Formulários, podemos inserir uma imagem de
 um recibo como o que aparece acima e retornar informações úteis que
