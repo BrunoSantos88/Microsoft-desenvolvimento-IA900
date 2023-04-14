@@ -1,8 +1,10 @@
 # Simulado
 
-- Simulado -1 60%
-
-- Simulado - 2 87%
+Resultado dos Simualdos ja Efetuados.  </P>
+- Simulado -1 - 67%  </P>
+- Simulado -2 - 88%  </P>
+- Simulado -3 - 52%  </P>
+- Simulado(microsoft) - 52%  </P>
 
 
 # Pergunta 1
