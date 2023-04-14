@@ -89,8 +89,8 @@ formulários, faturas e recibos.
 Ele combina OCR (reconhecimento óptico de caracteres) de última geração com modelos de previsão
 que podem interpretar dados de formulário por:
 
-▪ Correspondência de nomes de campos com valores.
-▪ Processamento de tabelas de dados.
-▪ Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
+Correspondência de nomes de campos com valores. </p>
+Processamento de tabelas de dados.  </p>
+Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
 outros.
 
