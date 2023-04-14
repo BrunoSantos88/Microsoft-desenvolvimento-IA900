@@ -9,14 +9,14 @@ resource "azurerm_resource_group" "mlai900" {
 }
 
 resource "azurerm_application_insights" "mlai900" {
-  name                = "mlai900-ai"
+  name                = "mlai900ai"
   location            = azurerm_resource_group.mlai900.location
   resource_group_name = azurerm_resource_group.mlai900.name
   application_type    = "web"
 }
 
 resource "azurerm_key_vault" "mlai900" {
-  name                = "mlai900-kv"
+  name                = "mlai900kv"
   location            = azurerm_resource_group.mlai900.location
   resource_group_name = azurerm_resource_group.mlai900.name
   tenant_id           = data.azurerm_client_config.current.tenant_id
@@ -27,7 +27,7 @@ resource "azurerm_key_vault" "mlai900" {
 }
 
 resource "azurerm_storage_account" "mlai900" {
-  name                     = "mlai900-storage"
+  name                     = "mlai900storage"
   location                 = azurerm_resource_group.mlai900.location
   resource_group_name      = azurerm_resource_group.mlai900.name
   account_tier             = "Standard"
@@ -48,7 +48,7 @@ resource "azurerm_machine_learning_workspace" "mlai900" {
 }
 
 resource "azurerm_virtual_network" "mlai900" {
-  name                = "example-vnet"
+  name                = "mlai900vnet"
   address_space       = ["10.1.0.0/16"]
   location            = azurerm_resource_group.mlai900.location
   resource_group_name = azurerm_resource_group.mlai900.name
@@ -71,7 +71,7 @@ resource "azurerm_machine_learning_compute_cluster" "mlai900" {
 
   scale_settings {
     min_node_count                       = 0
-    max_node_count                       = 1
+    max_node_count                       = 3
     scale_down_nodes_after_idle_duration = "PT30S" # 30 seconds
   }
 
