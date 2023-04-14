@@ -6,6 +6,8 @@ Resultado dos Simualdos ja Efetuados.  </P>
 - Simulado -3 - 60%  </P>
 - Simulado(microsoft) - 52%  </P>
 
+<!-- Link --> https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
+
 
 # Pergunta 1
 
