@@ -97,3 +97,32 @@ outros.
 LAB 14/04
 link:https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/3-analyze-receipts
 
+# Exercício – Analisar recibos com o Reconhecimento de Formulários
+
+No campo IA (inteligência artificial) da pesquisa visual computacional, o OCR (reconhecimento óptico de caracteres) é comumente usado para ler documentos impressos ou manuscritos. Geralmente, o texto é simplesmente extraído dos documentos em um formato que possa ser usado em processamento ou análise posterior.
+
+Um cenário de OCR mais avançado é a extração de informações de formulários, como pedidos de compra ou faturas, com uma compreensão semântica do que os campos no formulário representam. O serviço Reconhecimento de Formulários foi projetado especificamente para esse tipo de problema de IA.
+
+O Reconhecimento de Formulários usa modelos de machine learning treinados para extrair texto de imagens de faturas, recibos e muito mais. Embora outros modelos de pesquisa visual computacional possam capturar texto, o Reconhecimento de Formulários também captura a estrutura do texto, como pares chave/valor e informações em tabelas. Assim, em vez de ter que digitar manualmente entradas de um formulário em um banco de dados, você pode capturar automaticamente as relações entre o texto do arquivo original.
+
+Para testar os recursos do serviço de Reconhecimento de Formulários, usaremos um aplicativo de linha de comando simples que é executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam a soluções do mundo real, como sites ou aplicativos de telefone.
+
+Criar um recurso dos Serviços Cognitivos
+Você pode usar o serviço de Reconhecimento de Formulários com a criação de um recurso do Reconhecimento de Formulários ou de um recurso dos Serviços Cognitivos.
+
+Caso ainda não tenha feito isso, crie um recurso dos Serviços Cognitivos em sua assinatura do Azure.
+
+Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com e entre com sua conta Microsoft.
+
+Clique no botão ＋ Criar um recurso, procure Serviços Cognitivos e crie um recurso dos Serviços Cognitivos com as seguintes configurações:
+
+Assinatura: sua assinatura do Azure.
+Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo.
+Região: escolha qualquer região disponível:
+Nome: insira um nome exclusivo.
+Tipo de Preço: S0
+Confirmo que li e entendi os avisos: selecionado.
+Examine e crie o recurso e aguarde a conclusão da implantação. Em seguida, vá para o recurso implantado.
+
+Exiba a página Chaves e Ponto de Extremidade do recurso dos Serviços Cognitivos. Você precisará do ponto de extremidade e das chaves para se conectar em aplicativos cliente.
+
