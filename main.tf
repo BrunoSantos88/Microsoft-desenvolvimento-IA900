@@ -2,5 +2,5 @@
 
 #LAB Machine Learning
 module "LabPraticoAI900" {
-  source = "./LabPraticoAI900"   
+  source = "./AutoLAB-AI900"   
 }
