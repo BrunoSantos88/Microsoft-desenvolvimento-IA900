@@ -94,3 +94,6 @@ Processamento de tabelas de dados.  </p>
 Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
 outros.
 
+LAB 14/04
+link:https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/3-analyze-receipts
+
