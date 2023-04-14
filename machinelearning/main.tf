@@ -65,6 +65,7 @@ resource "azurerm_machine_learning_compute_cluster" "mlai900" {
   name                          = "mlai900cluster"
   location                      = azurerm_resource_group.mlai900.location
   vm_size                       = "Standard_DS11_v2"
+  vm_priority                   = "LowPriority"
   machine_learning_workspace_id = azurerm_machine_learning_workspace.mlai900.id
   subnet_resource_id            = azurerm_subnet.mlai900.id
 
