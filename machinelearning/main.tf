@@ -27,7 +27,7 @@ resource "azurerm_key_vault" "mlai900" {
 }
 
 resource "azurerm_storage_account" "mlai900" {
-  name                     = "mlai900storage"
+  name                     = "ai900azai"
   location                 = azurerm_resource_group.mlai900.location
   resource_group_name      = azurerm_resource_group.mlai900.name
   account_tier             = "Standard"
