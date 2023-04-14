@@ -5,7 +5,6 @@
 #  source = "./Cognitive"   
 #}
 
-
 #LAB Machine Learning
 module "MachineLearning" {
   source = "./MachineLeanig"   
