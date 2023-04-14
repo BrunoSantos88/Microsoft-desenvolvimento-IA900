@@ -71,7 +71,7 @@ resource "azurerm_machine_learning_compute_cluster" "mlai900" {
 
   scale_settings {
     min_node_count                       = 0
-    max_node_count                       = 3
+    max_node_count                       = 2
     scale_down_nodes_after_idle_duration = "PT30S" # 30 seconds
   }
 
