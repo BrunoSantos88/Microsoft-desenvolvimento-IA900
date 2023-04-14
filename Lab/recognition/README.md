@@ -1,31 +1,27 @@
-# MIcrosoft-AI-900
+# Explore o reconhecimento óptico de caracteres
 
-Link Learning Path AI 900
-https://learn.microsoft.com/pt-br/training/browse/?terms=ai-900&subjects=data-ai
+Um desafio comum da visão computacional é detectar e interpretar o texto em uma imagem. Esse tipo de processamento costuma ser chamado de reconhecimento óptico de caracteres (OCR). A API de leitura da Microsoft fornece acesso aos recursos de OCR.
 
-Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/practice/assessment?assessment-type=practice&assessmentId=26
+Para testar os recursos da API Read, usaremos um aplicativo de linha de comando simples executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam a soluções do mundo real, como sites ou aplicativos de telefone.
 
-#Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
+Use o serviço de visão computacional para ler texto em uma imagem
+O serviço cognitivo de visão computacional fornece suporte para tarefas de OCR, incluindo:
 
-O que é IA?
-Em síntese, a IA é a criação de um software que imita comportamentos e capacidades humanos. As principais cargas de trabalho incluem:
+Uma API de leitura otimizada para documentos maiores. Essa API é usada de forma assíncrona e pode ser usada para texto impresso e manuscrito.
+Criar um recurso de Serviços Cognitivos
+Você pode usar o serviço de Visão Computacional criando um recurso de Visão Computacional ou um recurso de Serviços Cognitivos .
 
-Machine learning – geralmente é a base de um sistema de IA e é como "ensinamos" um modelo de computador a fazer previsões e tirar conclusões com base nos dados.
-Detecção de anomalias – a capacidade de detectar erros ou atividade incomum automaticamente em um sistema.
-Pesquisa Visual Computacional – a capacidade do software de interpretar o mundo visualmente por meio de câmeras, vídeos e imagens.
-Processamento de idioma natural – a capacidade de um computador de interpretar um idioma escrito ou falado e responder à mesma altura.
-Mineração de conhecimento: a capacidade de extrair informações de grandes volumes de dados muitas vezes não estruturados para criar um repositório de conhecimento pesquisável.
+Caso ainda não tenha feito isso, crie um recurso de Serviços Cognitivos em sua assinatura do Azure.
 
-# Como o machine learning funciona
-Então, como os computadores aprendem?
+Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com , entrando com sua conta da Microsoft.
 
-A resposta é: com base nos dados. No mundo atual, criamos enormes volumes de dados à medida que vivemos nossas rotinas. De mensagens de texto, emails e postagens em mídias sociais que enviamos a fotografias e vídeos que fazemos em nossos telefones, geramos enormes quantidades de informações. Mais dados ainda são criados por milhões de sensores em nossas residências, em nossos carros, em nossas cidades, em nossa infraestrutura de transporte pública e em nossas fábricas.
+Clique no botão ＋Criar um recurso , procure por Serviços Cognitivos e crie um recurso de Serviços Cognitivos com as seguintes configurações:
+Assinatura : sua assinatura do Azure .
+Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
+Região : Escolha qualquer região disponível .
+Nome : Digite um nome exclusivo .
+Tipo de preço : Standard S0
+Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo : Selecionado.
+Revise e crie o recurso e aguarde a conclusão da implantação. Em seguida, vá para o recurso implantado.
 
-Os cientistas de dados podem usar todos esses dados para treinar modelos de machine learning que podem fazer previsões e inferências com base nas relações encontradas nos dados.
-
-Por exemplo, suponha que uma organização de conservação ambiental queira que voluntários identifiquem e cataloguem diferentes espécies de flores silvestres usando um aplicativo de celular. A animação a seguir mostra como o machine learning pode ser usado para habilitar esse cenário.
-
-
-Exemplo: </p>
-</p>
-<img src="https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif" width="1000px" align="centter" alt="planos">
+Visualize a página Chaves e Endpoint para seu recurso de Serviços Cognitivos. Você precisará do endpoint e das chaves para se conectar a partir de aplicativos cliente.
