@@ -2,9 +2,9 @@ data "azurerm_client_config" "current" {}
 
 resource "azurerm_resource_group" "mlai900" {
   name     = "mlai900"
-  location = "East US"
-  tags = {
-    "stage" = "IA900"
+ location = "East US"
+ tags = {
+   "stage" = "IA900"
   }
 }
 
