@@ -75,9 +75,9 @@ Usando o Reconhecimento de Formulários, podemos inserir uma imagem de
 um recibo como o que aparece acima e retornar informações úteis que
 possam ser necessárias em um pedido de reembolso de despesas, incluindo:
 
-▪ O nome, o endereço e o número de telefone do comerciante.
-▪ A data e a hora da compra.
-▪ A quantidade e o preço de cada item adquirido.
-▪ Os valores de subtotal, imposto e total.
+O nome, o endereço e o número de telefone do comerciante. </p>
+A data e a hora da compra. </p>
+A quantidade e o preço de cada item adquirido. </p>
+Os valores de subtotal, imposto e total. </p>
 
 
