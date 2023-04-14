@@ -3,7 +3,7 @@
 Resultado dos Simualdos ja Efetuados.  </P>
 - Simulado -1 - 67%  </P>
 - Simulado -2 - 88%  </P>
-- Simulado -3 - 52%  </P>
+- Simulado -3 - 60%  </P>
 - Simulado(microsoft) - 52%  </P>
 
 
