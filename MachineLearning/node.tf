@@ -1,5 +1,5 @@
 resource "azurerm_machine_learning_workspace" "machineL" {
-  name                = "machineL-workspace"
+  name                = "machineL"
   location            = azurerm_resource_group.machineL.location
   resource_group_name = azurerm_resource_group.machineL.name
 }
@@ -7,7 +7,7 @@ resource "azurerm_machine_learning_workspace" "machineL" {
 
 resource "azurerm_machine_learning_compute_cluster" "machineL" {
 
-  name     = "aml-cluster"
+  name     = "MachineLCluster"
   location = azurerm_resource_group.machineL.location
   vm_priority                   = "LowPriority"
   vm_size                       = "STANDARD_NC8AS_T4_v3"
