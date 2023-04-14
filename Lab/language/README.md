@@ -52,9 +52,32 @@ Palavras - As palavras em uma linha de texto, incluindo as coordenadas da caixa 
 Cada linha e palavra inclui coordenadas de caixa delimitadora indicando sua posição na página.
 
 # Exercício – Explorar o reconhecimento óptico de caracteres com a API de Leitura
-
+lab 14/04 </p>
 link: https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/03d-read-text-computer-vision.html
 
+# Reconhecimento de Formularios
 
+O Reconhecimento de Formulários no Azure fornece funcionalidades de processamento inteligente de
+formulários que você pode usar para automatizar o processamento de dados em documentos como
+formulários, faturas e recibos.
+
+Ele combina OCR (reconhecimento óptico de caracteres) de última geração com modelos de previsão
+que podem interpretar dados de formulário por:
+
+▪ Correspondência de nomes de campos com valores.
+▪ Processamento de tabelas de dados.
+▪ Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
+outros.
+
+# conhecimento de Formulários (cupom)
+
+Usando o Reconhecimento de Formulários, podemos inserir uma imagem de
+um recibo como o que aparece acima e retornar informações úteis que
+possam ser necessárias em um pedido de reembolso de despesas, incluindo:
+
+▪ O nome, o endereço e o número de telefone do comerciante.
+▪ A data e a hora da compra.
+▪ A quantidade e o preço de cada item adquirido.
+▪ Os valores de subtotal, imposto e total.
 
 
