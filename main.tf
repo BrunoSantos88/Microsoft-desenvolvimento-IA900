@@ -7,5 +7,5 @@
 
 #LAB Machine Learning
 module "MachineLearning" {
-  source = "./MachineLeanig"   
+  source = "./machinelearning"   
 }
