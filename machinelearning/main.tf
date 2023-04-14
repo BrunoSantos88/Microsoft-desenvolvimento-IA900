@@ -46,17 +46,3 @@ resource "azurerm_machine_learning_workspace" "mlai900" {
     type = "SystemAssigned"
   }
 }
-
-resource "azurerm_virtual_network" "mlai900" {
-  name                = "mlai900vnet"
-  address_space       = ["10.1.0.0/16"]
-  location            = azurerm_resource_group.mlai900.location
-  resource_group_name = azurerm_resource_group.mlai900.name
-}
-
-resource "azurerm_subnet" "mlai900" {
-  name                 = "mlai900-subnet"
-  resource_group_name  = azurerm_resource_group.mlai900.name
-  virtual_network_name = azurerm_virtual_network.mlai900.name
-  address_prefixes     = ["10.1.0.0/24"]
-}
