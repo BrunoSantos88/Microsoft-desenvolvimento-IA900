@@ -60,22 +60,3 @@ resource "azurerm_subnet" "mlai900" {
   virtual_network_name = azurerm_virtual_network.mlai900.name
   address_prefixes     = ["10.1.0.0/24"]
 }
-
-resource "azurerm_machine_learning_compute_cluster" "mlai900" {
-  name                          = "mlai900cluster"
-  location                      = azurerm_resource_group.mlai900.location
-  vm_size                       = "Standard_D11"
-  vm_priority                   = "LowPriority"
-  machine_learning_workspace_id = azurerm_machine_learning_workspace.mlai900.id
-  subnet_resource_id            = azurerm_subnet.mlai900.id
-
-  scale_settings {
-    min_node_count                       = 0
-    max_node_count                       = 2
-    scale_down_nodes_after_idle_duration = "PT30S" # 30 seconds
-  }
-
-  identity {
-    type = "SystemAssigned"
-  }
-}
