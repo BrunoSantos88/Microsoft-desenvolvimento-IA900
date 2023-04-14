@@ -80,4 +80,17 @@ A data e a hora da compra. </p>
 A quantidade e o preço de cada item adquirido. </p>
 Os valores de subtotal, imposto e total. </p>
 
+# O Reconhecimento de Formulários no Azure
+
+Fornece funcionalidades de processamento inteligente de
+formulários que você pode usar para automatizar o processamento de dados em documentos como
+formulários, faturas e recibos.
+
+Ele combina OCR (reconhecimento óptico de caracteres) de última geração com modelos de previsão
+que podem interpretar dados de formulário por:
+
+▪ Correspondência de nomes de campos com valores.
+▪ Processamento de tabelas de dados.
+▪ Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
+outros.
 
