@@ -10,6 +10,11 @@ Um conjunto de dados de treinamento ao qual aplicaremos um algoritmo que determi
 Um conjunto de dados de validação ou teste que podemos usar para avaliar o modelo usando-o para gerar previsões para o rótulo e compará-las com os valores de rótulo conhecidos reais.
 O uso de dados históricos com valores de rótulo conhecidos para treinar um modelo torna a regressão um exemplo de aprendizado de máquina supervisionado .
 
+# Um exemplo simples
+Vamos dar um exemplo simples para ver como o processo de treinamento e avaliação funciona em princípio. Suponha que simplifiquemos o cenário para usarmos um único recurso – temperatura média diária – para prever a etiqueta de aluguel de bicicletas.
+
+Começamos com alguns dados que incluem valores conhecidos para o recurso de temperatura média diária e o rótulo de aluguel de bicicletas.
+
 # Regressão linear múltipla e R-quadrado
 
 Nesta unidade, contrastaremos a regressão linear múltipla com a regressão linear simples . Também veremos uma métrica chamada R 2 , que é comumente usada para avaliar a qualidade de um modelo de regressão linear.
