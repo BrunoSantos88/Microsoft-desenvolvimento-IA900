@@ -65,7 +65,7 @@ A IA (Inteligência Artificial) pode ajudar a simplificar a comunicação traduz
 
 Para testar os recursos do serviço de Tradução, usaremos um aplicativo de linha de comando simples que é executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam em soluções do mundo real, como sites ou aplicativos de telefone.
 
-Lab 17/04
+Lab 17/04 </p>
 Link: https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/3-exercise-translate-text-use-azure
 
 
