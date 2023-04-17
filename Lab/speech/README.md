@@ -32,3 +32,44 @@ Ler mensagens de email ou de texto em voz alta em cenários de mãos livres.
 Transmitir anúncios em locais públicos, como estações ferroviárias ou aeroportos.
 
 
+# Introdução à Fala no Azure
+
+O Microsoft Azure oferece funcionalidades de reconhecimento de fala e sintetização de voz por meio do Serviço Cognitivo de Fala, que inclui as seguintes APIs (interfaces de programação de aplicativo):
+
+# API de Conversão de Fala em Texto
+API de Conversão de Texto em Fala
+Recursos do Azure para o Serviço de Fala
+Para usar o serviço de Fala em um aplicativo, será necessário criar um recurso apropriado em sua assinatura do Azure. Será possível optar por criar um dos seguintes tipos de recursos:
+
+Recurso de Fala – escolha esse tipo de recurso caso planeje usar somente o Serviço de Fala ou queira gerenciar o acesso e a cobrança do recurso de maneira separada dos outros serviços.
+Recurso de Serviços Cognitivos – escolha esse tipo de recurso caso planeje usar o Serviço de Fala combinado com outros serviços cognitivos e queira gerenciar o acesso e a cobrança desses serviços juntos.
+API de Conversão de Fala em Texto
+É possível usar a API de Conversão de Fala em Texto para executar a transcrição em lote ou em tempo real de um áudio em formato de texto. A fonte de áudio da transcrição poderá ser uma fluxo de áudio em tempo real de um microfone ou um arquivo de áudio.
+
+O modelo usado pela API de conversão de fala em texto será baseado em um Modelo de Linguagem Universal treinado pela Microsoft. Os dados do modelo são de propriedade da Microsoft e foram implantados no Microsoft Azure. O modelo será otimizado para dois cenários: conversação e ditado. Também será possível criar e treinar seus modelos personalizados, incluindo acústica, linguagem e pronúncia, caso os modelos predefinidos da Microsoft não forneçam o que você precisa.
+
+# Transcrição em tempo real
+A Conversão de Fala em Texto em tempo real permite transcrever texto em transmissões de áudio. Será possível usar uma transcrição em tempo real para apresentações, demonstrações ou qualquer outro cenário em que uma pessoa esteja falando.
+
+Para que a transcrição em tempo real funcione, seu aplicativo deverá escutar o áudio de entrada de um microfone ou outra fonte de entrada de áudio, como um arquivo de áudio. O código do aplicativo transmitirá o áudio para o serviço que retornará o texto transcrito.
+
+# Transcrição em lote
+Nem todos os cenários de conversão de fala em texto serão em tempo real. Você poderá ter gravações de áudio armazenadas em um compartilhamento de arquivo, em um servidor remoto ou até mesmo no armazenamento do Azure. Será possível transmitir arquivos de áudio com um URI de SAS (assinatura de acesso compartilhado) e receber resultados de transcrição de maneira assíncrona.
+
+A transcrição em lote deverá ser executada de maneira assíncrona, pois os trabalhos em lote são agendados com base no melhor esforço. Normalmente, um trabalho será executado minutos após a solicitação, porém não há estimativa de quando um trabalho será alterado para o estado de execução.
+
+# API de Conversão de Texto em Fala
+A API de Conversão de Texto em Fala permite converter a entrada de texto em uma fala audível, que poderá ser reproduzida de modo direto por meio de um alto-falante de computador ou gravada em um arquivo de áudio.
+
+# Vozes disponíveis na sintetização de voz
+Ao usar a API de Conversão de Texto em Fala será possível especificar qual voz reproduzirá o texto. Essa funcionalidade oferece flexibilidade para personalizar sua solução de sintetização de voz e dar a ela um personagem específico.
+
+O serviço inclui várias vozes predefinidas compatíveis com diversos idiomas e pronúncias regionais, incluindo vozes padrão e também vozes neurais que aproveitam as redes neurais para superar as limitações comuns da sintetização de voz relacionadas à entonação, resultando em uma voz mais natural. Também será possível desenvolver vozes personalizadas e usá-las com a API de Conversão de Texto em Fala
+
+# Idiomas compatíveis
+As APIs de conversão de fala em texto e conversão de texto em fala são compatíveis com vários idiomas. Use os links abaixo para descobrir mais detalhes sobre os idiomas compatíveis:
+
+Idiomas de conversão de Fala em Texto.
+Idiomas de conversão de Texto em Fala.
+
+
