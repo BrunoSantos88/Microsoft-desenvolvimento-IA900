@@ -4,7 +4,7 @@ Analisar textos é um processo em que diferentes aspectos de um documento ou fra
 
 Por exemplo, será possível ler um texto e identificar algumas frases-chave que indicarão os principais pontos de discussão do texto. Também será possível reconhecer nomes de pessoas ou pontos de referência conhecidos, como a Torre Eiffel. Embora às vezes seja difícil, também será possível ter uma noção de como a pessoa estava se sentindo quando escreveu o texto, também conhecido como sentimentos.
 
-Técnicas de Análise de Texto
+# Técnicas de Análise de Texto
 A análise de texto é um processo em que um algoritmo de IA (inteligência artificial), em execução em um computador, avalia esses mesmos atributos em um texto para determinar informações específicas. Uma pessoa normalmente dependerá de suas experiências e de conhecimento para obter informações. Um computador deverá obter esse conhecimento de modo semelhante para poder executar a tarefa. Há algumas técnicas conhecidas que poderão ser usadas para criar um software de análise de texto, incluindo:
 
 Análise estatística dos termos usados no texto. Por exemplo, remover "palavras irrelevantes" comuns (como "o" ou "um", que revela poucas informações semânticas sobre o texto) e executar uma análise de frequência das palavras restantes (contando com que frequência cada palavra aparece) poderá fornecer pistas sobre o assunto principal do texto.
