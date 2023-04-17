@@ -94,27 +94,6 @@ Processamento de tabelas de dados.  </p>
 Identificação de tipos específicos de campo, como datas, números de telefone, endereços, totais e
 outros.
 
-# Recursos do Azure para Compreensão da Linguagem Coloquial
-Para cada uma das tarefas de criação e previsão, será necessário obter um recurso em sua assinatura do Azure. É possível usar os seguintes tipos de recursos:
-
-Serviço de Linguagem: um recurso que permite que você crie aplicativos com funcionalidades de reconhecimento de linguagem natural líderes do setor sem experiência em aprendizado de máquina.
-Serviços Cognitivos: um recurso genérico dos Serviços Cognitivos que inclui a Compreensão da Linguagem Coloquial e vários outros Serviços Cognitivos. Será possível usar esse tipo de recurso somente para a previsão.
-A separação de recursos é útil quando você deseja acompanhar a utilização de recursos para uso do Serviço de Linguagem separadamente dos aplicativos cliente usando todos os aplicativos dos Serviços Cognitivos.
-
-Quando seu aplicativo cliente usa um recurso dos Serviços Cognitivos, você pode gerenciar o acesso a todos os serviços cognitivos que estão sendo usados, incluindo o Serviço de Linguagem, por meio de um único ponto de extremidade e chave.
-
-# Criação
-Depois de elaborar um recurso de criação, será possível usá-lo para criar e treinar um aplicativo de Compreensão da Linguagem Coloquial definindo as entidades e as intenções que seu aplicativo preverá, bem como enunciados para cada intenção que poderão ser usados para treinar o modelo de previsão.
-
-A Compreensão da Linguagem Coloquial fornece uma coleção abrangente de domínios predefinidos que incluem intenções e entidades predefinidas para cenários comuns. Você poderá usá-los como ponto de partida para seu modelo. Também será possível criar suas entidades e intenções.
-
-Será possível criar entidades e intenções em qualquer ordem. Será possível criar uma intenção e selecionar palavras nos enunciados de exemplo que você definir para criar entidades para eles. Ou será possível criar as entidades com antecedência e depois mapeá-las para obter palavras nos enunciados enquanto estiver criando as intenções.
-
-É possível escrever códigos para definir os elementos do modelo, no entanto, na maioria dos casos, é mais fácil criar seu modelo usando o portal de Reconhecimento vocal – uma interface baseada na Web para criar e gerenciar aplicativos de Compreensão da Linguagem Coloquial.
-
-LAB 14/04
-link:https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/3-analyze-receipts
-
 # Exercício – Analisar recibos com o Reconhecimento de Formulários
 
 No campo IA (inteligência artificial) da pesquisa visual computacional, o OCR (reconhecimento óptico de caracteres) é comumente usado para ler documentos impressos ou manuscritos. Geralmente, o texto é simplesmente extraído dos documentos em um formato que possa ser usado em processamento ou análise posterior.
@@ -143,4 +122,25 @@ Confirmo que li e entendi os avisos: selecionado.
 Examine e crie o recurso e aguarde a conclusão da implantação. Em seguida, vá para o recurso implantado.
 
 Exiba a página Chaves e Ponto de Extremidade do recurso dos Serviços Cognitivos. Você precisará do ponto de extremidade e das chaves para se conectar em aplicativos cliente.
+
+LAB 14/04
+link:https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/3-analyze-receipts
+
+# Recursos do Azure para Compreensão da Linguagem Coloquial
+Para cada uma das tarefas de criação e previsão, será necessário obter um recurso em sua assinatura do Azure. É possível usar os seguintes tipos de recursos:
+
+Serviço de Linguagem: um recurso que permite que você crie aplicativos com funcionalidades de reconhecimento de linguagem natural líderes do setor sem experiência em aprendizado de máquina.
+Serviços Cognitivos: um recurso genérico dos Serviços Cognitivos que inclui a Compreensão da Linguagem Coloquial e vários outros Serviços Cognitivos. Será possível usar esse tipo de recurso somente para a previsão.
+A separação de recursos é útil quando você deseja acompanhar a utilização de recursos para uso do Serviço de Linguagem separadamente dos aplicativos cliente usando todos os aplicativos dos Serviços Cognitivos.
+
+Quando seu aplicativo cliente usa um recurso dos Serviços Cognitivos, você pode gerenciar o acesso a todos os serviços cognitivos que estão sendo usados, incluindo o Serviço de Linguagem, por meio de um único ponto de extremidade e chave.
+
+# Criação
+Depois de elaborar um recurso de criação, será possível usá-lo para criar e treinar um aplicativo de Compreensão da Linguagem Coloquial definindo as entidades e as intenções que seu aplicativo preverá, bem como enunciados para cada intenção que poderão ser usados para treinar o modelo de previsão.
+
+A Compreensão da Linguagem Coloquial fornece uma coleção abrangente de domínios predefinidos que incluem intenções e entidades predefinidas para cenários comuns. Você poderá usá-los como ponto de partida para seu modelo. Também será possível criar suas entidades e intenções.
+
+Será possível criar entidades e intenções em qualquer ordem. Será possível criar uma intenção e selecionar palavras nos enunciados de exemplo que você definir para criar entidades para eles. Ou será possível criar as entidades com antecedência e depois mapeá-las para obter palavras nos enunciados enquanto estiver criando as intenções.
+
+É possível escrever códigos para definir os elementos do modelo, no entanto, na maioria dos casos, é mais fácil criar seu modelo usando o portal de Reconhecimento vocal – uma interface baseada na Web para criar e gerenciar aplicativos de Compreensão da Linguagem Coloquial.
 
