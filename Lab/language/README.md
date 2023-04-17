@@ -153,3 +153,4 @@ Cada vez mais, esperamos que os computadores sejam capazes de usar a IA para ent
 
 Para testar as funcionalidades do serviço de Compreensão da Linguagem Coloquial, usaremos um aplicativo de linha de comando que é executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam em soluções do mundo real, como sites ou aplicativos de telefone.
 
+Link: https://learn.microsoft.com/pt-br/training/modules/create-language-model-with-language-understanding/3-exercise-create-language-understanding-application
