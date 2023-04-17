@@ -27,3 +27,27 @@ Uma ferramenta para extrair informações de marcas ou nomes de empresas de docu
 Esses exemplos são apenas uma pequena amostra das muitas áreas em que o serviço de linguagem pode ajudar com a análise de texto.
 
 
+# Introdução à análise de texto
+
+O serviço de linguagem faz parte das ofertas de Serviços Cognitivos do Azure que poderão executar um processamento avançado de linguagem natural sobre textos brutos.
+
+# Recursos do Azure para o serviço de linguagem
+Para usar o serviço de linguagem em um aplicativo, você deve provisionar um recurso apropriado em sua assinatura do Azure. Será possível optar por provisionar qualquer um dos seguintes tipos de recursos:
+
+Um recurso de Linguagem – escolha esse tipo de recurso se você planeja usar somente o serviços de processamento de linguagem natural ou quer gerenciar o acesso e a cobrança do recurso de maneira separada dos outros serviços.
+Um recurso de Serviços Cognitivos – escolha esse tipo de recurso caso planeje usar o serviço de linguagem combinado com outros serviços cognitivos e queira gerenciar o acesso e a cobrança desses serviços juntos.
+
+# Detecção de idioma
+Use a funcionalidade de detecção de idioma do serviço de linguagem para identificar o idioma no qual o texto está escrito. Será possível enviar vários documentos por vez para análise. Para cada documento enviado, o serviço detectará:
+
+O nome do idioma (por exemplo, "inglês").
+O código ISO 6391 do idioma (por exemplo, "in").
+Uma pontuação que indicará um nível de confiança na detecção de idioma.
+Considere um cenário no qual você é proprietário e gerencia um restaurante em que os clientes poderão responder a pesquisas e fornecer comentários sobre a comida, o serviço, a equipe e assim por diante. Imagine que você recebeu as seguintes análises dos clientes:
+
+Análise 1: "Um lugar fantástico para almoçar. A sopa estava deliciosa."
+
+Análise 2: "Comida maravillosa y gran servicio."
+
+Análise 3: "The croque monsieur avec frites was terrific. Bon appetit!"
+
