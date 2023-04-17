@@ -106,3 +106,39 @@ jantar
 ambiente
 lugar
 Será possível usar a análise de sentimentos para determinar que essa análise é positiva, como também as frases-chave para identificar elementos importantes da análise.
+
+# Reconhecimento de entidade
+É possível fornecer ao serviço de linguagem texto não estruturado e ele retornará uma lista de entidades no texto que ele reconhece. O serviço também poderá fornecer links para que seja possível obter mais informações sobre essa entidade na Web. Uma entidade é basicamente um item de uma categoria ou tipo específicos e, em alguns casos, subtipos. Conforme mostrado na tabela a seguir.
+
+# Tipo	SubType	Exemplo </p>
+Pessoa		"Bill Gates", "João" </p> </p>
+Localização		"Paris", "Nova York" </p>
+Organização		"Microsoft" </p>
+Quantidade	Número	"6" ou "seis" </p>
+Quantidade	Percentual	"25%" ou "cinquenta por cento" </p>
+Quantidade	Ordinal	"1º" ou "primeiro" </p>
+Quantidade	Idade	"90 dias" ou "30 anos" </p>
+Quantidade	Moeda	"10,99" </p> 
+Quantidade	Dimensão	"10 quilômetros", "40 cm" </p>
+Quantidade	Temperatura	"45 graus" </p>
+DateTime		"04 de fevereiro de 2012, 18h30" </p>
+DateTime	Data	"02 de maio de 2017" ou "02/05/2017" </p>
+DateTime	Hora	"8h" ou "8h00" </p>
+DateTime	DateRange	"de 02 a 05 de maio" </p>
+DateTime	TimeRange	"18h às 19h" </p>
+DateTime	Duração	"1 minuto e 45 segundos" </p>
+DateTime	Definição	"todas as terças-feiras" </p>
+URL		"https://www.bing.com"</p>
+Email		"support@microsoft.com" </p>
+Número de telefone dos EUA		"(312) 555-0176" </p>
+Endereço IP		"10.0.1.125" </p>
+
+# O serviço também será compatível com uma vinculação de entidade para ajudar a remover a ambiguidade de entidades vinculando-as a uma referência específica. Para entidades reconhecidas, o serviço retornará uma URL de um artigo relevante da Wikipédia.
+
+# Por exemplo, imagine que você usa o serviço de linguagem para detectar entidades no seguinte trecho de análise do restaurante:
+
+"Comi em um restaurante em Seattle na semana passada."
+
+# Entidade	Tipo	SubType	URL da Wikipédia
+Seattle	Localização		https://en.wikipedia.org/wiki/Seattle
+semana passada	DateTime	DateRange	
