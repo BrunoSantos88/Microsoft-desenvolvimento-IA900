@@ -58,3 +58,10 @@ Análise 2: "Comida maravillosa y gran servicio."
 
 Análise 3: "The croque monsieur avec frites was terrific. Bon appetit!"
 
+Você pode usar os recursos de análise de texto no serviço de linguagem para detectar o idioma de cada uma dessas revisões; e pode responder com os seguintes resultados:
+
+Documento	Nome do idioma	Código ISO 6391	Pontuação
+Análise 1	Inglês	en	1,0
+Análise 2	Espanhol	es	1,0
+Análise 3	Inglês	en	0,9
+
