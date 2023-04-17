@@ -12,6 +12,9 @@ link: https://microsoftlearning.github.io/AI-900-AIFundamentals/  </p>
 Laboratorios com serviços cognitivo com base no repositorio microsoft IA-900 <p/>
 link: https://github.com/MicrosoftLearning/AI-900-AIFundamentals ai-900
 
+ServerTexT
+Link. https://profrodolfo.com.br/dp900/ 
+
 #Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
 
 O que é IA?
