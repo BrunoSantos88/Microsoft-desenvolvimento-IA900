@@ -145,5 +145,5 @@ semana passada	DateTime	DateRange	</p>
 
 # Exercício – Explorar a análise de texto
 
-LAB 17/04
+LAB 17/04 </p>
 LINK: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/3-exercise
