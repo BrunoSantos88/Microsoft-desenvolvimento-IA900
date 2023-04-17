@@ -144,3 +144,6 @@ Será possível criar entidades e intenções em qualquer ordem. Será possível
 
 É possível escrever códigos para definir os elementos do modelo, no entanto, na maioria dos casos, é mais fácil criar seu modelo usando o portal de Reconhecimento vocal – uma interface baseada na Web para criar e gerenciar aplicativos de Compreensão da Linguagem Coloquial.
 
+LAB 17/04 </p>
+Link: https://learn.microsoft.com/pt-br/training/modules/create-language-model-with-language-understanding/3-exercise-create-language-understanding-application
+
