@@ -1,3 +1,15 @@
+# O que é regressão?
+
+A regressão funciona estabelecendo uma relação entre variáveis nos dados que representam características — conhecidas como recursos — da coisa que está sendo observada e a variável que estamos tentando prever — conhecida como rótulo . Lembre-se de nossa empresa que aluga bicicletas e deseja prever o número esperado de locações em um determinado dia. Nesse caso, os recursos incluem coisas como dia da semana, mês e assim por diante, enquanto o rótulo é o número de aluguéis de bicicletas.
+
+Para treinar o modelo, começamos com uma amostra de dados contendo os recursos, bem como valores conhecidos para o rótulo - portanto, neste caso, precisamos de dados históricos que incluam datas, condições climáticas e o número de aluguéis de bicicletas.
+
+Em seguida, dividiremos essa amostra de dados em dois subconjuntos:
+
+Um conjunto de dados de treinamento ao qual aplicaremos um algoritmo que determina uma função que encapsula a relação entre os valores de recurso e os valores de rótulo conhecidos.
+Um conjunto de dados de validação ou teste que podemos usar para avaliar o modelo usando-o para gerar previsões para o rótulo e compará-las com os valores de rótulo conhecidos reais.
+O uso de dados históricos com valores de rótulo conhecidos para treinar um modelo torna a regressão um exemplo de aprendizado de máquina supervisionado .
+
 # Regressão linear múltipla e R-quadrado
 
 Nesta unidade, contrastaremos a regressão linear múltipla com a regressão linear simples . Também veremos uma métrica chamada R 2 , que é comumente usada para avaliar a qualidade de um modelo de regressão linear.
