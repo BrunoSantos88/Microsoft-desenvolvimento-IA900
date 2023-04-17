@@ -133,9 +133,9 @@ Email		"support@microsoft.com" </p>
 Número de telefone dos EUA		"(312) 555-0176" </p>
 Endereço IP		"10.0.1.125" </p>
 
-# O serviço também será compatível com uma vinculação de entidade para ajudar a remover a ambiguidade de entidades vinculando-as a uma referência específica. Para entidades reconhecidas, o serviço retornará uma URL de um artigo relevante da Wikipédia.
+O serviço também será compatível com uma vinculação de entidade para ajudar a remover a ambiguidade de entidades vinculando-as a uma referência específica. Para entidades reconhecidas, o serviço retornará uma URL de um artigo relevante da Wikipédia.
 
-# Por exemplo, imagine que você usa o serviço de linguagem para detectar entidades no seguinte trecho de análise do restaurante:
+Por exemplo, imagine que você usa o serviço de linguagem para detectar entidades no seguinte trecho de análise do restaurante:
 
 "Comi em um restaurante em Seattle na semana passada."
 
