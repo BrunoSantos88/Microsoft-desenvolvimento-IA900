@@ -139,6 +139,6 @@ Por exemplo, imagine que você usa o serviço de linguagem para detectar entidad
 
 "Comi em um restaurante em Seattle na semana passada."
 
-Entidade	Tipo	SubType	URL da Wikipédia
-Seattle	Localização		https://en.wikipedia.org/wiki/Seattle
-semana passada	DateTime	DateRange	
+Entidade	Tipo	SubType	URL da Wikipédia </p>
+Seattle	Localização		https://en.wikipedia.org/wiki/Seattle </p>
+semana passada	DateTime	DateRange	</p>
