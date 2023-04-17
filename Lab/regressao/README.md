@@ -1,91 +1,22 @@
-# Simulado
+# Regressão linear múltipla e R-quadrado
 
-Resultado dos Simualdos ja Efetuados.  </P>
-- Simulado -1 - 74%  </P>
-- Simulado -2 - 88%  </P>
-- Simulado -3 - 60%  </P>
-- Simulado(microsoft) - 52%  </P>
+Nesta unidade, contrastaremos a regressão linear múltipla com a regressão linear simples . Também veremos uma métrica chamada R 2 , que é comumente usada para avaliar a qualidade de um modelo de regressão linear.
 
-Link: https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
+# Regressão linear múltipla
+A regressão linear múltipla modela a relação entre vários recursos e uma única variável. Matematicamente, é o mesmo que a regressão linear simples e geralmente é ajustada usando a mesma função de custo, mas com mais recursos.
 
+Em vez de modelar um único relacionamento, essa técnica modela simultaneamente vários relacionamentos, que trata como independentes um do outro. Por exemplo, se estivermos prevendo o quão doente um cachorro ficará com base em sua idade e body_fat_percentage, duas relações serão encontradas:
 
-# Pergunta 1
+Como a idade aumenta ou diminui a doença
+Como body_fat_percentage aumenta ou diminui a doença
+Se estivermos trabalhando apenas com dois recursos, podemos visualizar nosso modelo como uma superfície plana 2D, assim como podemos modelar uma regressão linear simples como uma linha. Vamos explorar isso no próximo exercício.
 
-Você precisa identificar valores numéricos que representem a probabilidade de humanos desenvolverem diabetes com base na idade e no percentual de gordura corporal.
+# A regressão linear múltipla tem suposições
+O fato de que o modelo espera que as características sejam independentes é chamado de suposição do modelo. Quando as suposições do modelo não são verdadeiras, o modelo pode fazer previsões enganosas.
 
-Que tipo de modelo de aprendizado de máquina você deve usar?
+Por exemplo, a idade provavelmente prediz como os cães ficam doentes, conforme os cães mais velhos ficam mais doentes, juntamente com se os cães foram ensinados a jogar frisbee: cães mais velhos provavelmente sabem jogar frisbee. Se incluíssemos idade e know_frisbee em nosso modelo como recursos, provavelmente nos diria que know_frisbee é um bom preditor de uma doença e subestimaríamos a importância da idade. Isso é um pouco absurdo, porque saber que o frisbee provavelmente não causa doenças. Por outro lado, dog_breed também pode ser um bom preditor de doença, mas não há razão para acreditar que idade prediz dog_breed, então seria seguro incluir ambos em um modelo.
 
-R: Regressão linear múltipla
+# Qualidade do ajuste: R 2
+Sabemos que as funções de custo podem ser usadas para avaliar o quão bem um modelo se ajusta aos dados nos quais é treinado. Os modelos de regressão linear têm uma medida relacionada especial chamada R 2 (“R-quadrado”). R 2 é um valor entre 0 e 1 que nos diz o quão bem um modelo de regressão linear ajusta os dados. Quando as pessoas falam sobre as correlações serem fortes, geralmente querem dizer que o valor de R 2 era grande.
 
-Explicaçao: A regressão linear múltipla modela uma relação entre dois ou mais recursos e um único rótulo, que corresponde ao cenário deste item. A regressão linear usa um único recurso. A regressão logística é um tipo de modelo de classificação, que retorna um valor booleano ou uma decisão categórica. O agrupamento hierárquico agrupa pontos de dados que possuem características semelhantes.
-
-Link: https://learn.microsoft.com/pt-br/training/modules/understand-classification-machine-learning/2-what-is-classification
-
-# Pergunta 2
-Uma organização de assistência médica tem um conjunto de dados que consiste em varreduras de fraturas ósseas categorizadas usando tipos de fratura predefinidos. A organização quer usar o aprendizado de máquina para detectar os diferentes tipos de fraturas ósseas para novas varreduras antes que as varreduras sejam enviadas para um médico.
-
-Que tipo de aprendizado de máquina é esse?
-
-
-classificação (correta) </P>
-caracterização </P>
-regressão </P>
-agrupamento </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/create-classification-model-azure-machine-learning-designer/
-
-
-# Pergunta 3
-
-Uma empresa deseja prever o uso doméstico de água com base no número de pessoas em uma casa, na temperatura do tempo e na época do ano.
-Em termos de rótulos e recursos de dados, qual é o rótulo neste caso de uso?
-
-
-número de pessoas na casa </P>
-temperatura do tempo </P>
-uso de água (correta) </P>
-época do ano </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/use-automated-machine-learning/2-what-is-ml
-
-# Pergunta 4
-
-Qual é a pontuação de confiança retornada pelo serviço de detecção de idioma do processamento de linguagem natural (NLP) para um nome de idioma desconhecido?
-
-
--1 </P> 
-1 </P>
-NaN (correta) </P>
-Desconhecido </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
-
-# Pergunta 5
-Quais são os dois recursos dos Serviços Cognitivos do Azure que podem ser usados para habilitar texto para texto e fala para texto entre vários idiomas? Cada resposta correta apresenta parte da solução.
-
-Selecione todas as respostas que se aplicam.
-
-o serviço de fala  (correta) </p>  
-o serviço Tradutor  (correta)   </p>  
-extração de frase-chave  </p>  
-detecção de idioma  </p>  
-
-link :https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/
-link> https://learn.microsoft.com/pt-br/azure/cognitive-services/translator/
-
-# Pergunta 6
-
-Quais são os dois recursos dos Serviços Cognitivos do Azure que permitem identificar problemas de dados de perguntas de suporte, bem como identificar pessoas e produtos mencionados? Cada resposta correta apresenta parte da solução.
-
-Selecione todas as respostas que se aplicam.
-
-o serviço de fala </p>  
-Compreensão da linguagem conversacional   </p>  
-extração de frase-chave (correta)  </p>  
-reconhecimento de entidade nomeada  (correta) </p>  
-Serviço de Bot do Azure </p>  
-
-Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases </p>  
-link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
-link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
-  
+R 2 usa a matemática além do que pretendemos abordar neste curso, mas podemos pensar nisso intuitivamente. Vamos considerar o exercício anterior em que examinamos a relação entre idade e core_temperature. Um R 2 de 1 significaria que anos poderiam ser usados para prever perfeitamente quem tinha temperatura alta e quem tinha temperatura baixa. Em contraste, um 0 significaria simplesmente que não havia relação entre anos e temperatura.
