@@ -1,144 +1,19 @@
-# Explorar a classificação de imagens
+# Introdução
 
-# RECURSOS DO AZURE PARA A PESQUISA VISUAL COMPUTACIONAL
+Como as organizações e os indivíduos precisam cada vez mais colaborar com pessoas de outras culturas e locais geográficos, a remoção de barreiras de idioma se tornou um problema significativo.
 
-Para usar o serviço de Pesquisa Visual Computacional é preciso criar um recurso para ele na sua
-assinatura do Azure. Você pode usar qualquer um dos seguintes tipos de recurso:
+Uma solução é encontrar pessoas bilíngues, ou até mesmo multilíngues, para traduzir entre idiomas. No entanto, a escassez dessas habilidades e o número de combinações de idiomas possíveis podem tornar essa abordagem difícil de dimensionar. Cada vez mais, a tradução automática, às vezes chamada de tradução automática, está sendo usada para resolver esse problema.
 
-- Pesquisa Visual Computacional: 
-um recurso específico para o serviço de Pesquisa Visual
-Computacional. Use esse tipo de recurso se você não pretender usar nenhum outro serviço
-cognitivo ou se desejar controlar a utilização e os custos do recurso de Pesquisa Visual
-Computacional separadamente.
+# Tradução literal e semântica
+No início, a tradução automática era literal. Na tradução literal, cada palavra é traduzida pela sua correspondente no idioma de destino. Essa abordagem apresenta alguns problemas. Por exemplo, pode não haver uma palavra equivalente no idioma de destino. Além disso, a tradução literal pode alterar o significado de uma frase ou não transmitir o contexto correto.
 
-- Serviços Cognitivos: 
-Um recurso de serviços cognitivos gerais que inclui a Pesquisa Visual
-Computacional além de muitos outros serviços cognitivos, como Análise de Texto, Tradução de
-Texto e outros. Use esse tipo de recurso se planejar usar vários serviços cognitivos e desejar
-simplificar a administração e o desenvolvimento.
+Por exemplo, a frase francesa "éteindre la lumière" pode ser traduzida para o inglês como "apagar a luz". No entanto, em francês, você também pode dizer "fermer la Lumiere" para dizer a mesma coisa. O verbo francês fermer literalmente significa "fechar", portanto, uma tradução literal baseada apenas nas palavras indicaria, em inglês, "fechar a luz". Para o falante de inglês, isso realmente não faz sentido. Portanto, para ser útil, um serviço de tradução deve levar em conta o contexto semântico e retornar a tradução em inglês de "apagar a luz".
 
-- Seja qual for o tipo de recurso que você escolher criar, ele fornecerá duas
-informações necessárias para usá-lo:
+Os sistemas de inteligência artificial devem ser capazes de entender não apenas as palavras, mas também o contexto semântico no qual são usadas. Dessa maneira, o serviço pode retornar uma tradução mais precisa das frases originais. É necessário considerar as regras de gramática, os estilos formais e informais e os coloquialismos.
 
-- Uma chave usada para autenticar aplicativos cliente.
-Um ponto de extremidade que fornece o endereço HTTP no qual seu recurso
-pode ser acessado.
+# Tradução de fala e texto
+A tradução de texto pode ser usada para converter documentos de um idioma para outro, traduzir comunicações por email provenientes de governos estrangeiros e até mesmo traduzir páginas da Web na Internet. Muitas vezes, você verá uma opção Traduzir em postagens em sites de mídia social. O mecanismo de pesquisa do Bing pode oferecer para traduzir páginas da Web inteiras retornadas nos resultados da pesquisa.
 
-- Depois de criar um recurso adequado na sua assinatura, você pode enviar imagens
-para que o serviço de Pesquisa Visual Computacional execute uma ampla gama de
-tarefas analíticas.
-
-
-- Marcação de recursos visuais
-As descrições de imagens geradas pelo Computer Vision são baseadas em um
-conjunto de milhares de objetos reconhecíveis, que podem ser usados para sugerir
-tags para a imagem.
-Essas tags podem ser associadas à imagem como metadados que resumem os
-atributos da imagem; e pode ser particularmente útil se você deseja indexar uma
-imagem junto com um conjunto de termos-chave que podem ser usados para
-pesquisar imagens com atributos ou conteúdos específicos.
-
-Por exemplo, as tags retornadas para a imagem do Empire State Building incluem:
-- arranha-céu
-- torre
-- prédio
-
-# Detecção de marcas
-
-- Se uma marca conhecida for detectada, o serviço retornará uma resposta que
-contém o nome da marca, uma pontuação de confiança (de 0 a 1 indicando quão
-positiva é a identificação) e uma caixa delimitadora (coordenadas) para onde na
-imagem a marca detectada foi encontrado.
-
-# Detecção de conteúdo específico do domínio
-
-Ao categorizar uma imagem, o serviço Computer Vision
-oferece suporte a dois modelos de domínio especializados:
-- Celebridades - O serviço inclui um modelo que foi
-treinado para identificar milhares de celebridades
-conhecidas do mundo dos esportes, entretenimento e
-negócios.
-- Marcos - O serviço pode identificar marcos famosos,
-como o Taj Mahal e a Estátua da Liberdade.
-
-- Por exemplo, ao analisar a imagem a seguir para pontos de
-referência, o serviço de Visão Computacional identifica a Torre
-Eiffel, com uma confiança de 99,41%.
-
-
-- Pratica laboratorio 
-Exercício – Analisar imagens com o serviço de Pesquisa Visual Computacional </p>
-link: https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
-
-- Laboratorio Dia 12/04  </p>
-link https://learn.microsoft.com/pt-br/training/modules/analyze-images-computer-vision/3-analyze-images
-
-# Na página Dados , na guia Ativos de dados , selecione Criar . Em seguida, configure um ativo de dados com as seguintes configurações:
-
-Tipo de dados :
-Nome : pinguin-data
-Descrição : dados do pinguim
-Tipo de conjunto de dados : tabular
-Fonte de dados : de arquivos da Web
-URL da Web :
-URL da Web : https://aka.ms/penguin-data
-Ignorar validação de dados : não selecione
-Configurações :
-Formato do arquivo : Delimitado
-Delimitador : Vírgula
-Codificação : UTF-8
-Cabeçalhos de coluna : Somente o primeiro arquivo tem cabeçalhos
-Pular linhas : nenhuma
-O conjunto de dados contém dados de várias linhas : não selecione
-Esquema :
-Incluir todas as colunas exceto Caminho
-Revise os tipos detectados automaticamente
-
-configuraçao Lab 12
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231480610-99f8ac7d-dd3d-49cd-81aa-bf023c576e97.png" max-width="100px" width="800px" align="centter" alt="riscodeuser">
-
-Apredizagem lab 12
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231480682-231c7c3d-0d61-4c3c-9700-1899434df275.png" align="centter" alt="riscodeuser">
-
-
-
-# Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real 
-
-Criar um pipeline de inferência
-No estúdio Azure Machine Learning, expanda o painel esquerdo selecionando o ícone de menu no canto superior esquerdo da tela. Clique em Trabalhos (em Ativos ) para ver todos os trabalhos executados. Selecione o experimento mslearn-penguin-training e, em seguida, selecione o pipeline Train Penguin Clustering .
-
-Localize o menu acima da tela e clique em Create inference pipeline . Pode ser necessário expandir a tela até o máximo e clicar no ícone … no canto superior direito da tela para encontrar Create inference pipeline no menu.
-
-Captura de tela do local do pipeline de inferência de criação.
-
-Na lista suspensa Criar pipeline de inferência , clique em Pipeline de inferência em tempo real . Após alguns segundos, uma nova versão de seu pipeline chamada Train Penguin Clustering-real time inference será aberta.
-
-Navegue até Configurações no menu superior direito. Em Detalhes do rascunho , renomeie o novo pipeline para Predict Penguin Clusters e revise o novo pipeline. As transformações e o modelo de cluster em seu pipeline de treinamento fazem parte desse pipeline. O modelo treinado será usado para pontuar os novos dados. O pipeline também contém uma saída de serviço da web para retornar resultados.
-
-Você fará as seguintes alterações no pipeline de inferência:
-
-Apredizagem lab 12
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231485020-0a24a08a-209b-4826-bb19-8700402bb281.png">
-
- # Deploy
- 
-- Implante um novo endpoint em tempo real, usando as seguintes configurações:
-Nome : prever-pinguim-clusters
-Descrição : Pinguins de cluster.
-Tipo de computação : instância de contêiner do Azure
-Aguarde até que o serviço da Web seja implantado - isso pode levar vários minutos.
-
-Para visualizar o status da implantação, expanda o painel esquerdo selecionando o ícone de menu no canto superior esquerdo da tela. Visualize a página Endpoints (em Ativos ) e selecione predict-pinguim-clusters . Quando a implantação for concluída, o estado de implantação mudará para íntegro .
-
-este o serviço
-Na página Endpoints , abra o endpoint em tempo real predict-penguin-clusters e selecione a guia Teste .
-
-
-Endpoint lab 12
-</p>
-<img src="https://user-images.githubusercontent.com/91704169/231487387-def1664c-e63b-4d02-a464-fdb8bf680940.png">
+A tradução de fala é usada para converter entre idiomas falados, às vezes diretamente (conversão de fala em fala) e, às vezes, pela tradução para um formato de texto intermediário (conversão de fala em texto).
 
 
