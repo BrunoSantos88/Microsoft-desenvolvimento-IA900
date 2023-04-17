@@ -11,7 +11,10 @@ Um conjunto de dados de validação ou teste que podemos usar para avaliar o mod
 O uso de dados históricos com valores de rótulo conhecidos para treinar um modelo torna a regressão um exemplo de aprendizado de máquina supervisionado .
 
 # Um exemplo simples
-Vamos dar um exemplo simples para ver como o processo de treinamento e avaliação funciona em princípio. Suponha que simplifiquemos o cenário para usarmos um único recurso – temperatura média diária – para prever a etiqueta de aluguel de bicicletas.
+Vamos dar um exemplo simples para ver como o processo de treinamento e avaliação funciona em princípio. Suponha que simplifiquemos o cenário para usarmos um único recurso – temperatura média diária – para prever a etiqueta de aluguel de bicicletas. </p> 
+
+Continuaçao. </P>
+Link: https://learn.microsoft.com/en-us/training/modules/train-evaluate-regression-models/2-what-is-regression
 
 Começamos com alguns dados que incluem valores conhecidos para o recurso de temperatura média diária e o rótulo de aluguel de bicicletas.
 
