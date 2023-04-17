@@ -69,7 +69,9 @@ O serviço inclui várias vozes predefinidas compatíveis com diversos idiomas e
 # Idiomas compatíveis
 As APIs de conversão de fala em texto e conversão de texto em fala são compatíveis com vários idiomas. Use os links abaixo para descobrir mais detalhes sobre os idiomas compatíveis:
 
-Idiomas de conversão de Fala em Texto.
-Idiomas de conversão de Texto em Fala.
+Idiomas de conversão de Fala em Texto. </p> </p>
+Link: https://learn.microsoft.com/pt-br/azure/cognitive-services/speech-service/language-support?tabs=stt#speech-to-text </p>
+Idiomas de conversão de Texto em Fala. </p>
+link: https://learn.microsoft.com/pt-br/azure/cognitive-services/speech-service/language-support?tabs=stt#text-to-speech
 
 
