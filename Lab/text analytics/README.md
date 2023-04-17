@@ -65,3 +65,44 @@ Análise 1	Inglês	en	1,0 </p>
 Análise 2	Espanhol	es	1,0 </p>
 Análise 3	Inglês	en	0,9 </p>
 
+
+#Conteúdo ambíguo ou com vários idiomas
+Alguns textos poderão ser ambíguos por natureza ou ter um conteúdo com vários idiomas. Essas situações poderão ser um desafio para o serviço. Um exemplo de conteúdo ambíguo seria no caso de um documento conter textos limitados ou somente pontuações. Por exemplo, usar o serviço para analisar o texto ":-)" resultará em um valor desconhecido para o nome do idioma e o identificador de idioma, além de uma pontuação NaN (usada para indicar que algo não é um número).
+
+#Análise de sentimento
+As funcionalidades de análise de texto no serviço de linguagem podem avaliar texto e retornar pontuações e rótulos de sentimentos para cada frase. Essa funcionalidade será útil para detectar sentimentos positivos e negativos em mídias sociais, análises dos clientes, fóruns de discussão e muito mais.
+
+Ao usar o modelo de classificação predefinido de machine learning, o serviço avaliará o texto e retornará uma pontuação de sentimentos com um intervalo entre 0 a 1, sendo que valores próximos de 1 serão considerados sentimentos positivos. As pontuações próximas ao meio do intervalo (0,5) serão consideradas neutras ou indeterminadas.
+
+Por exemplo, as seguintes avaliações do restaurante poderiam ser analisadas em busca de sentimentos:
+
+"Fomos jantar neste restaurante ontem à noite e a primeira coisa que percebi foi a educação da equipe. Fomos recebidos com simpatia e encaminhados à mesa imediatamente. A mesa estava limpa, as cadeiras eram confortáveis e a comida estava maravilhosa."
+
+e
+
+"Nossa experiência ao jantar neste restaurante foi uma das piores que já tive. O serviço era lento e a comida horrível. Nunca mais vou comer nesse estabelecimento de novo."
+
+A pontuação de sentimentos da primeira análise poderá ser considerada em torno de 0,9, indicando um sentimento positivo. Embora a pontuação da segunda análise seja mais próxima de 0,1, indicando uma observação negativa.
+
+# Sentimentos indeterminados
+Uma pontuação de 0,5 poderá indicar que o sentimento do texto é indeterminado e resultar de um texto que não tem contexto suficiente para discernir um sentimento ou que a quantidade de frases é insuficiente. Por exemplo, uma lista de palavras em uma frase que não tem nenhuma estrutura poderá resultar em uma pontuação indeterminada. Outro exemplo em que a pontuação poderá ser 0,5 é o caso em que o código de idioma errado foi usado. Um código de idioma (como "in" para inglês ou "fr" para francês) será usado para informar o serviço em que o idioma do texto está escrito. Caso informe ao serviço que o texto está em francês, porém use o código de idioma in para inglês, o serviço retornará uma pontuação de exatamente 0,5.
+
+# Extração de frases-chave
+O conceito de extração de frases-chave é avaliar o texto de documentos e identificar os principais pontos de discussão deles. Considere o cenário do restaurante discutido anteriormente. Dependendo do volume de pesquisas coletadas, ler todas as análises pode demorar muito. Em vez disso, será possível usar os recursos de extração de frases-chave do serviço de linguagem para resumir os principais pontos.
+
+Será possível receber uma análise como:
+
+"Viemos jantar aqui por causa da comemoração de um aniversário e tivemos uma experiência fantástica. Fomos recebidos por uma recepcionista simpática que nos encaminhou à mesa imediatamente. O ambiente era relaxante, a comida estava incrível e o serviço ótimo. Caso goste de uma boa comida e um serviço atencioso, você deverá conhecer esse lugar."
+
+# A extração de frases-chave poderá fornecer algum contexto para essa análise, extraindo as seguintes frases:
+
+serviço atencioso
+boa comida
+comemoração de aniversário
+experiência fantástica
+table
+recepcionista simpática
+jantar
+ambiente
+lugar
+Será possível usar a análise de sentimentos para determinar que essa análise é positiva, como também as frases-chave para identificar elementos importantes da análise.
