@@ -9,6 +9,9 @@ Link Simulado https://learn.microsoft.com/pt-br/certifications/exams/ai-900/prac
 Laboratorios microsoft </p>
 link: https://microsoftlearning.github.io/AI-900-AIFundamentals/  </p>
 
+Laboratorios com serviços cognitivo com base no repositorio microsoft IA-900
+link: https://github.com/MicrosoftLearning/AI-900-AIFundamentals ai-900
+
 #Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
 
 O que é IA?
