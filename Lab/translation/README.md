@@ -16,4 +16,45 @@ A tradução de texto pode ser usada para converter documentos de um idioma para
 
 A tradução de fala é usada para converter entre idiomas falados, às vezes diretamente (conversão de fala em fala) e, às vezes, pela tradução para um formato de texto intermediário (conversão de fala em texto).
 
+# Introdução à tradução no Azure
+
+O Microsoft Azure fornece serviços cognitivas que ajudam a traduzir. Especificamente, você pode usar os seguintes serviços:
+
+O serviço de Tradução, que dá suporte à tradução de texto.
+O serviço de Fala, que converte fala em texto e traduz a fala.
+Recursos do Azure para Tradução e Fala
+Para usar os serviços de Tradução ou Fala, provisione os recursos apropriados em sua assinatura do Azure.
+
+Há tipos de recursos dedicados de Tradução e Fala para esses serviços, que você pode usar para gerenciar o acesso e a cobrança de cada serviço individualmente.
+
+Como alternativa, você pode criar um recurso dos Serviços Cognitivos que fornece acesso a ambos os serviços por meio de um recurso do Azure, consolidando a cobrança e permitindo que os aplicativos acessem os dois serviços por meio de um ponto de extremidade e chave de autenticação.
+
+Traduzir texto com o serviço de Tradução
+O serviço de Tradução é fácil de integrar com aplicativos, sites, ferramentas e soluções. O serviço usa um modelo de NMT (tradução automática neural) para tradução, que analisa o contexto semântico do texto e gera uma tradução mais precisa e completa.
+
+# Suporte a idiomas no serviço de Tradução
+O serviço de Tradução dá suporte à tradução de texto em mais de 60 idiomas. Ao usar o serviço, especifique o idioma de origem e o idioma de destino usando códigos de idioma ISO 639-1, como en para inglês, fr para francês e zh para chinês. Como alternativa, você pode especificar variantes culturais de idiomas complementando o código de idioma com o código cultural 3166-1 correspondente – por exemplo, en-US para inglês dos EUA, en-GB para o inglês britânico ou fr-CA para o francês canadense.
+
+Ao usar o serviço de Tradução, você pode especificar um idioma de origem e vários idiomas de destino, permitindo traduzir um documento de origem para vários idiomas de modo simultâneo.
+
+# Configurações opcionais
+A API de Tradução oferece algumas configurações opcionais para ajudar a ajustar os resultados retornados, incluindo:
+
+Filtro de conteúdo ofensivo. Sem nenhuma configuração, o serviço traduzirá o texto de entrada sem filtrar o conteúdo ofensivo. Os níveis de conteúdo ofensivo são normalmente específicos à cultura, mas você pode controlar a tradução dele marcando o texto traduzido como ofensivo ou omitindo-o nos resultados.
+Tradução seletiva. Você pode marcar o conteúdo para que ele não seja traduzido. Por exemplo, você pode querer marcar o código, um nome de marca ou uma palavra/frase que não faça sentido quando localizada.
+Tradução de fala com o serviço de Fala
+O serviço de Fala inclui as seguintes APIs (interface de programação de aplicativo):
+
+Conversão de fala em texto: usada para transcrever fala de uma fonte de áudio em formato de texto.
+Conversão de texto em fala: usada para gerar áudio falado com base em uma fonte de texto.
+Tradução de Fala: usada para traduzir fala em um idioma para texto ou fala em outro.
+É possível usar a API de Tradução de Fala para traduzir áudio falado de uma fonte de streaming, como um microfone ou um arquivo de áudio, e retornar a tradução como um texto ou stream de áudio. Isso permite cenários como a legendagem oculta em tempo real de uma fala ou tradução bidirecional simultânea de uma conversa falada.
+
+# Idiomas disponíveis no serviço de Fala
+Assim como ocorre com o serviço de Tradução, você pode especificar um idioma de origem e um ou mais idiomas de destino para os quais a origem deve ser traduzida. Você pode converter a fala em mais de 60 idiomas.
+
+O idioma de origem deve ser especificado usando o idioma estendido e o formato de código de cultura, como es-US para espanhol americano. Esse requisito ajuda a garantir que a origem seja compreendida corretamente, permitindo a pronúncia localizada e as expressões idiomáticas.
+
+Os idiomas de destino devem ser especificados usando um código de idioma de dois caracteres, como en para inglês ou de para alemão.
+
 
