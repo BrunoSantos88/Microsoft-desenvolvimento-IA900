@@ -142,3 +142,8 @@ Por exemplo, imagine que você usa o serviço de linguagem para detectar entidad
 # Entidade	Tipo	SubType	URL da Wikipédia </p>
 Seattle	Localização		https://en.wikipedia.org/wiki/Seattle </p>
 semana passada	DateTime	DateRange	</p>
+
+# Exercício – Explorar a análise de texto
+
+LAB 17/04
+LINK: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/3-exercise
