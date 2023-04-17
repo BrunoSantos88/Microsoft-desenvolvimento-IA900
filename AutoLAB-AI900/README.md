@@ -1,4 +1,4 @@
-# Automaçao para praticar os lABS AI-9000
+# Automaçao para praticar os lABS AI-900
 
 Exemplo: </p>
 </p>
