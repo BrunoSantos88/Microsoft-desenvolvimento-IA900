@@ -20,3 +20,16 @@ Por exemplo, a idade provavelmente prediz como os cães ficam doentes, conforme 
 Sabemos que as funções de custo podem ser usadas para avaliar o quão bem um modelo se ajusta aos dados nos quais é treinado. Os modelos de regressão linear têm uma medida relacionada especial chamada R 2 (“R-quadrado”). R 2 é um valor entre 0 e 1 que nos diz o quão bem um modelo de regressão linear ajusta os dados. Quando as pessoas falam sobre as correlações serem fortes, geralmente querem dizer que o valor de R 2 era grande.
 
 R 2 usa a matemática além do que pretendemos abordar neste curso, mas podemos pensar nisso intuitivamente. Vamos considerar o exercício anterior em que examinamos a relação entre idade e core_temperature. Um R 2 de 1 significaria que anos poderiam ser usados para prever perfeitamente quem tinha temperatura alta e quem tinha temperatura baixa. Em contraste, um 0 significaria simplesmente que não havia relação entre anos e temperatura.
+
+Imgaem
+
+A realidade está em algum lugar no meio. Nosso modelo pode prever a temperatura até certo ponto (então é melhor que R 2 = 0), mas os pontos variaram um pouco dessa previsão (portanto, é menor que R 2 =1).
+
+R 2 é apenas metade da história
+
+Os valores de R 2 são amplamente aceitos, mas não são uma medida perfeita que possamos usar isoladamente. Eles sofrem quatro limitações:
+
+Por causa de como o R 2 é calculado, quanto mais amostras tivermos, maior será o R 2 . Isso pode nos levar a pensar que um modelo é melhor que outro modelo (idêntico), simplesmente porque os valores de R 2 foram calculados usando diferentes quantidades de dados.
+Os valores de R 2 não nos dizem quão bem um modelo funcionará com dados novos e inéditos. Os estatísticos superam isso calculando uma medida suplementar, chamada valor-p, que não abordaremos aqui. No aprendizado de máquina, geralmente testamos explicitamente nosso modelo em outro conjunto de dados.
+Os valores de R 2 não nos dizem a direção do relacionamento. Por exemplo, um valor de R 2 de 0,8 não nos diz se a linha é inclinada para cima ou para baixo. Também não nos diz quão inclinada é a linha.
+Também vale a pena ter em mente que não há critérios universais para o que torna um valor de R 2 “bom o suficiente”. Por exemplo, na maior parte da física, é improvável que correlações que não sejam muito próximas de 1 sejam consideradas úteis, mas, ao modelar sistemas complexos, valores de R 2 tão baixos quanto 0,3 podem ser considerados excelentes.
