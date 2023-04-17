@@ -15,7 +15,7 @@ link: https://github.com/MicrosoftLearning/AI-900-AIFundamentals ai-900
 ServerTexT </p>
 Link. https://profrodolfo.com.br/dp900/ 
 
-#Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
+# Conceitos básicos de IA do Microsoft Azure: Introdução à inteligência artificial
 
 O que é IA?
 Em síntese, a IA é a criação de um software que imita comportamentos e capacidades humanos. As principais cargas de trabalho incluem:
