@@ -21,7 +21,9 @@ Sabemos que as funções de custo podem ser usadas para avaliar o quão bem um m
 
 R 2 usa a matemática além do que pretendemos abordar neste curso, mas podemos pensar nisso intuitivamente. Vamos considerar o exercício anterior em que examinamos a relação entre idade e core_temperature. Um R 2 de 1 significaria que anos poderiam ser usados para prever perfeitamente quem tinha temperatura alta e quem tinha temperatura baixa. Em contraste, um 0 significaria simplesmente que não havia relação entre anos e temperatura.
 
-Imgaem
+Exemplo: </p>
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/232543355-add4c093-2891-45d4-b786-72da560ef21f.png" width="1000px" align="centter" alt="planos">
 
 A realidade está em algum lugar no meio. Nosso modelo pode prever a temperatura até certo ponto (então é melhor que R 2 = 0), mas os pontos variaram um pouco dessa previsão (portanto, é menor que R 2 =1).
 
