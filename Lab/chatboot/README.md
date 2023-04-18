@@ -24,3 +24,6 @@ Quem é responsável pelas decisões baseadas em IA?	Uma pessoa inocente é cond
 # Exercício – Criar um bot
 
 Para cenários de suporte ao cliente, é comum criar um bot que possa interpretar e responder a perguntas frequentes por meio de uma janela de chat no site, email ou interface de voz. Sob a interface do bot há uma base de dados de conhecimento de perguntas e respostas apropriadas na qual o bot pode pesquisar em busca de respostas adequadas.
+
+
+Link: https://learn.microsoft.com/pt-br/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/3-create-bot
