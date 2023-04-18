@@ -27,3 +27,5 @@ Para cenários de suporte ao cliente, é comum criar um bot que possa interpreta
 
 
 Link: https://learn.microsoft.com/pt-br/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/3-create-bot
+
+Serviço: https://language.cognitive.azure.com/home
