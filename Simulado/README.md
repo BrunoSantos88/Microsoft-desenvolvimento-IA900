@@ -102,4 +102,19 @@ transparência (correta) </p>
 responsabilidade  </p>
 
 Link: https://learn.microsoft.com/pt-br/training/paths/responsible-ai-business-principles/
+
+# Pergunta 8
+
+Quais são os dois modelos pré-construídos que permitem usar o serviço de reconhecimento de formulário para digitalizar informações de passaportes internacionais e contas de vendas? Cada resposta correta apresenta parte da solução.
+
+Selecione todas as respostas que se aplicam.
+
+modelo de cartão de visita </p>
+modelo de fatura (correta) </p>
+modelo de recibo </p>
+modelo de documento de identificação (correta) </p>
+modelo de linguagem </p>
+
+Link: https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/</p>
+link: https://learn.microsoft.com/pt-br/azure/applied-ai-services/form-recognizer/concept-model-overview?view=form-recog-3.0.0
   
