@@ -4,7 +4,10 @@ Resultado dos Simualdos ja Efetuados.  </P>
 - Simulado -1 - 74%  </P>
 - Simulado -2 - 88%  </P>
 - Simulado -3 - 60%  </P>
-- Simulado(microsoft) - 52%  </P>
+- Simulado -4 -100% </p>
+- Simulado -Teste- 79% </p>
+- Simulado -Final--
+- Simulado(microsoft) - 60%  </P>
 
 Link: https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
 
