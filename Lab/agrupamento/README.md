@@ -69,3 +69,45 @@ O serviço do Detector de Anomalias aceita dados no formato JSON. Você pode usa
 O serviço dá suporte a um máximo de 8.640 pontos de dados. No entanto, o envio de muitos pontos de dados no mesmo objeto JSON pode resultar em latência na resposta. Você pode melhorar a resposta dividindo os pontos de dados em partes menores (janelas) e enviando-os em uma sequência.
 
 O mesmo formato de objeto JSON é usado em um cenário de streaming. A principal diferença é que você enviará um único valor em cada solicitação. O método de detecção de streaming comparará o valor atual que está sendo enviado com o valor enviado anteriormente.
+
+Recomendações de consistência de dados
+Caso seus dados tenham valores ausentes na sequência, considere seguir as recomendações abaixo.
+
+A amostragem ocorre a cada poucos minutos e tem menos de 10% do número esperado de pontos ausentes. Nesse caso, o impacto deve ser insignificante nos resultados da detecção.
+Caso você tenha mais de 10% de pontos ausentes, há opções para ajudar a "preencher" o conjunto de dados. Considere usar um método de interpolação linear para preencher os valores ausentes e completar o conjunto de dados. Isso preencherá as lacunas com valores distribuídos uniformemente.
+O serviço do Detector de Anomalias fornecerá os melhores resultados se os dados de série temporal forem distribuídos de maneira uniforme. Se os dados forem distribuídos de forma mais aleatória, você poderá usar um método de agregação para criar um conjunto de dados de distribuição mais uniforme.
+
+# Quando usar o Detector de Anomalias
+
+O serviço do Detector de Anomalias dá suporte ao processamento em lotes de dados de série temporal e à detecção de anomalias de último ponto de dados em tempo real.
+
+# Detecção em lote
+A detecção em lote envolve a aplicação do algoritmo a uma série de dados inteira de uma vez. O conceito de dados de série temporal envolve a avaliação de um conjunto de dados como um lote. Use sua série temporal para detectar todas as anomalias que podem existir em seus dados. Essa operação gera um modelo que usa todos os dados da série temporal, sendo que cada ponto analisado usa o mesmo modelo.
+
+É melhor usar a detecção em lote quando seus dados contêm:
+
+Dados de série temporal de tendência simples, com picos ou quedas ocasionais
+Dados da série temporal sazonal com anomalias ocasionais
+A sazonalidade é considerada um padrão que ocorre em intervalos regulares em seus dados. Os padrões horários, diários ou mensais são exemplos disso. Usar dados sazonais e especificar um período para esse padrão pode ajudar a reduzir a latência na detecção.
+Ao usar o modo de detecção em lote, o Detector de Anomalias cria um único modelo estatístico com base em todo o conjunto de dados que você transmite para o serviço. Com base nesse modelo, cada ponto de dados no conjunto de dados é avaliado e as anomalias são identificadas.
+
+# Exemplo de detecção em lote
+Considere uma empresa médica que armazena os estoques em instalações de armazenamento nas quais a temperatura precisa permanecer dentro de um intervalo específico. Para avaliar se o estoque permaneceu armazenado em um intervalo de temperatura seguro nos últimos três meses, precisamos saber:
+
+# A temperatura máxima permitida
+
+a temperatura mínima permitida
+a duração aceitável do tempo para que as temperaturas estejam fora do intervalo de segurança
+Se você estiver interessado em avaliar a conformidade em relação às leituras históricas, poderá extrair os dados de séries temporais necessários, empacotá-los em um objeto JSON e enviá-los para o serviço do Detector de Anomalias para avaliação. Em seguida, você verá uma exibição histórica das leituras de temperatura ao longo do tempo.
+
+# Detecção em tempo real.
+A detecção em tempo real usa dados de streaming comparando os pontos de dados vistos anteriormente com o último ponto de dados para determinar se o último é uma anomalia. Essa operação gera um modelo que usa os pontos de dados que você envia e determina se o ponto de destino (atual) é uma anomalia. Ao chamar o serviço em cada novo ponto de dados gerado, você pode monitorar seus dados conforme são criados.
+
+# Exemplo de detecção em tempo real
+Considere um cenário no setor de bebidas carbonatadas em que a detecção de anomalias em tempo real pode ser útil. O dióxido de carbono adicionado aos refrigerantes durante o processo de engarrafamento ou de envasamento precisa permanecer em um intervalo de temperatura específico.
+
+Os sistemas de engarrafamento utilizam um dispositivo conhecido como carbo-cooler para conseguir a refrigeração do produto nesse processo. Se a temperatura cair muito, o produto será congelado no carbo-cooler. Se a temperatura estiver muito quente, o dióxido de carbono não aderirá corretamente à bebida. Em qualquer uma dessas situações, o lote de produtos não poderá ser vendido aos clientes.
+
+Esse cenário de bebidas gaseificadas é um exemplo de onde você pode usar a detecção de streaming para tomada de decisões em tempo real. Ele pode ser vinculado a um aplicativo que controla os equipamentos da linha de produção de engarrafamento. Você pode usá-lo para alimentar monitores que retratam as temperaturas do sistema para a estação de controle de qualidade. Um técnico de serviço também pode usá-lo para identificar as necessidades de manutenção e o potencial de falha em equipamentos.
+
+Você pode usar o serviço do Detector de Anomalias para criar um aplicativo de monitoramento configurado com os critérios acima para executar o monitoramento de temperatura em tempo real. Você pode executar a detecção de anomalias usando técnicas de streaming e detecção de lote. A detecção de streaming é mais útil para monitorar requisitos de armazenamento críticos que devem ser acionados imediatamente. Os sensores monitorarão a temperatura dentro do compartimento e enviarão essas leituras para seu aplicativo ou um hub de eventos no Azure. O Detector de Anomalias avaliará os pontos de dados de streaming e determinará se um ponto é uma anomalia.
