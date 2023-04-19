@@ -100,4 +100,6 @@ privacidade e segurança </p>
 confiabilidade e segurança </p>
 transparência (correta) </p>
 responsabilidade  </p>
+
+Link: https://learn.microsoft.com/pt-br/training/paths/responsible-ai-business-principles/
   
