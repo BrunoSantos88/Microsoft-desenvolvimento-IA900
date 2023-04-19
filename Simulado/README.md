@@ -92,6 +92,8 @@ Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyp
 link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
 link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
 
+# Pergunta 7
+
 Qual princípio de inteligência artificial (IA) responsável aumenta a conscientização sobre as limitações das soluções baseadas em IA?
 Selecione apenas uma resposta.
 privacidade e segurança </p>
