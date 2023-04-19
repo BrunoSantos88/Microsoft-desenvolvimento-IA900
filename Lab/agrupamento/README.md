@@ -1,91 +1,26 @@
-# Simulado
+# Introdução
 
-Resultado dos Simualdos ja Efetuados.  </P>
-- Simulado -1 - 74%  </P>
-- Simulado -2 - 88%  </P>
-- Simulado -3 - 60%  </P>
-- Simulado(microsoft) - 52%  </P>
+# A detecção de anomalias é uma técnica de inteligência artificial usada para determinar se os valores de uma série estão dentro dos parâmetros esperados.
 
-Link: https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
+Há muitos cenários em que a detecção de anomalias é útil. Por exemplo, um sistema Smart HVAC pode usar a detecção de anomalias para monitorar temperaturas em um edifício e gerar um alerta se a temperatura estiver acima ou abaixo do valor esperado para um determinado período de tempo.
 
+# Os cenários abrangem:
 
-# Pergunta 1
+monitorar a pressão arterial
+avaliar o tempo médio entre falhas de produtos de hardware
+comparar despesas mês a mês nos custos de produtos
+O Detector de Anomalias do Azure é um serviço baseado em nuvem que ajuda a monitorar e detectar anormalidades em seus dados de série temporal e em tempo real.
 
-Você precisa identificar valores numéricos que representem a probabilidade de humanos desenvolverem diabetes com base na idade e no percentual de gordura corporal.
+Objetivos de aprendizagem
+Depois de concluir este módulo, você poderá:
 
-Que tipo de modelo de aprendizado de máquina você deve usar?
+Descrever o que é a detecção de anomalias
+Descrever como o serviço do Detector de Anomalias pode avaliar dados de série temporal
+Definir cenários em que a detecção de anomalias pode ser aplicada para dados históricos e em tempo real
+Pré-requisitos
+Capacidade de navegar pelo portal do Azure
+Conhecimento básico dos serviços do Azure
 
-R: Regressão linear múltipla
+# O que é o Detector de Anomalias?
 
-Explicaçao: A regressão linear múltipla modela uma relação entre dois ou mais recursos e um único rótulo, que corresponde ao cenário deste item. A regressão linear usa um único recurso. A regressão logística é um tipo de modelo de classificação, que retorna um valor booleano ou uma decisão categórica. O agrupamento hierárquico agrupa pontos de dados que possuem características semelhantes.
-
-Link: https://learn.microsoft.com/pt-br/training/modules/understand-classification-machine-learning/2-what-is-classification
-
-# Pergunta 2
-Uma organização de assistência médica tem um conjunto de dados que consiste em varreduras de fraturas ósseas categorizadas usando tipos de fratura predefinidos. A organização quer usar o aprendizado de máquina para detectar os diferentes tipos de fraturas ósseas para novas varreduras antes que as varreduras sejam enviadas para um médico.
-
-Que tipo de aprendizado de máquina é esse?
-
-
-classificação (correta) </P>
-caracterização </P>
-regressão </P>
-agrupamento </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/create-classification-model-azure-machine-learning-designer/
-
-
-# Pergunta 3
-
-Uma empresa deseja prever o uso doméstico de água com base no número de pessoas em uma casa, na temperatura do tempo e na época do ano.
-Em termos de rótulos e recursos de dados, qual é o rótulo neste caso de uso?
-
-
-número de pessoas na casa </P>
-temperatura do tempo </P>
-uso de água (correta) </P>
-época do ano </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/use-automated-machine-learning/2-what-is-ml
-
-# Pergunta 4
-
-Qual é a pontuação de confiança retornada pelo serviço de detecção de idioma do processamento de linguagem natural (NLP) para um nome de idioma desconhecido?
-
-
--1 </P> 
-1 </P>
-NaN (correta) </P>
-Desconhecido </P>
-
-Link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/2-get-started-azure
-
-# Pergunta 5
-Quais são os dois recursos dos Serviços Cognitivos do Azure que podem ser usados para habilitar texto para texto e fala para texto entre vários idiomas? Cada resposta correta apresenta parte da solução.
-
-Selecione todas as respostas que se aplicam.
-
-o serviço de fala  (correta) </p>  
-o serviço Tradutor  (correta)   </p>  
-extração de frase-chave  </p>  
-detecção de idioma  </p>  
-
-link :https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/
-link> https://learn.microsoft.com/pt-br/azure/cognitive-services/translator/
-
-# Pergunta 6
-
-Quais são os dois recursos dos Serviços Cognitivos do Azure que permitem identificar problemas de dados de perguntas de suporte, bem como identificar pessoas e produtos mencionados? Cada resposta correta apresenta parte da solução.
-
-Selecione todas as respostas que se aplicam.
-
-o serviço de fala </p>  
-Compreensão da linguagem conversacional   </p>  
-extração de frase-chave (correta)  </p>  
-reconhecimento de entidade nomeada  (correta) </p>  
-Serviço de Bot do Azure </p>  
-
-Link: https://learn.microsoft.com/pt-br/azure/search/cognitive-search-skill-keyphrases </p>  
-link: https://learn.microsoft.com/pt-br/training/modules/extract-insights-text-with-text-analytics-service/ </p>  
-link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-analytics-service/ </p>  
-  
+Anomalias são valores que estão fora dos valores ou do intervalo de valores esperados.
