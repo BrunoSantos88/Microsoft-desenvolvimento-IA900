@@ -44,27 +44,27 @@ upperBoundary = expectedValue + (100 - marginScale) * upperMargin
 O serviço do Detector de Anomalias aceita dados no formato JSON. Você pode usar qualquer dado numérico que tenha registrado ao longo do tempo. Os principais aspectos dos dados enviados incluem a granularidade, um carimbo de data/hora e um valor registrado para esse carimbo de data/hora. Um exemplo de objeto JSON que você pode enviar para a API é mostrado neste exemplo de código. A granularidade é definida como horária e é usada para representar as temperaturas em graus Celsius que foram registradas nos carimbos de data/hora indicados.
 
 # Exemplo </p>
-{ </p>
-    "granularity": "hourly",</p>
-    "series": [</p>
+{ 
+    "granularity": "hourly",
+    "series": [
       {
         "timestamp": "2021-03-01T01:00:00Z",</p>
-        "value": -10.56</p>
-      },</p>
-      {</p>
-        "timestamp": "2021-03-02T02:00:00Z",</p>
-        "value": -8.30</p>
-      },</p>
-      {</p>
-        "timestamp": "2021-03-02T03:00:00Z",</p>
-        "value": -10.30</p>
-      },</p>
-      {</p>
-        "timestamp": "2021-03-02T04:00:00Z",</p>
-        "value": 5.95</p>
-      },</p>
-    ]</p>
-}</p>
+        "value": -10.56
+      },
+      {
+        "timestamp": "2021-03-02T02:00:00Z",
+        "value": -8.30
+      },
+      {
+        "timestamp": "2021-03-02T03:00:00Z",
+        "value": -10.30
+      },
+      {
+        "timestamp": "2021-03-02T04:00:00Z",
+        "value": 5.95
+      },
+    ]
+}
 
 O serviço dá suporte a um máximo de 8.640 pontos de dados. No entanto, o envio de muitos pontos de dados no mesmo objeto JSON pode resultar em latência na resposta. Você pode melhorar a resposta dividindo os pontos de dados em partes menores (janelas) e enviando-os em uma sequência.
 
