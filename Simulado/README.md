@@ -117,4 +117,18 @@ modelo de linguagem </p>
 
 Link: https://learn.microsoft.com/pt-br/training/modules/analyze-receipts-form-recognizer/</p>
 link: https://learn.microsoft.com/pt-br/azure/applied-ai-services/form-recognizer/concept-model-overview?view=form-recog-3.0.0
-  
+ 
+# Pergunta 9
+
+Ao usar o serviço Face, o que você deve usar para realizar a correspondência facial um-para-muitos ou um-para-um? Cada resposta correta apresenta uma solução completa.
+
+Selecione todas as respostas que se aplicam.
+
+identificação facial (correta) </p>
+verificação facial (correta) </p>
+atributos faciais </p>
+encontrar rostos semelhantes </p>
+Visão personalizada </p>
+
+Link: https://learn.microsoft.com/pt-br/azure/cognitive-services/computer-vision/overview-identity </p>
+Link: https://learn.microsoft.com/pt-br/training/modules/detect-analyze-faces/
