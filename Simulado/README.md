@@ -95,7 +95,7 @@ link: https://learn.microsoft.com/pt-br/training/modules/analyze-text-with-text-
 # Pergunta 7
 
 Qual princípio de inteligência artificial (IA) responsável aumenta a conscientização sobre as limitações das soluções baseadas em IA?
-Selecione apenas uma resposta.
+Selecione apenas uma resposta.?
 privacidade e segurança </p>
 confiabilidade e segurança </p>
 transparência (correta) </p>
