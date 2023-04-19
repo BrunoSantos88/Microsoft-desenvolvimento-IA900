@@ -40,7 +40,7 @@ Exemplo: </p>
 </p>
 <img src="https://learn.microsoft.com/pt-br/training/wwl-data-ai/get-started-ai-fundamentals/media/machine-learn.gif" width="1000px" align="centter" alt="planos">
 
-# Resumo
+# Resumo Seis princípios orientadores da Microsoft
 Na última unidade, abordamos as implicações sociais da IA e a responsabilidade de empresas, governos, ONGs e pesquisadores acadêmicos de prever e atenuar as consequências não intencionais da tecnologia de IA. Tendo em vista essa responsabilidade, as organizações têm a necessidade de criar políticas e práticas internas para orientar seus esforços de IA, estejam elas implantando soluções de IA de terceiros ou desenvolvendo suas próprias.
 
 Na Microsoft, reconhecemos seis princípios que acreditamos que devem orientar o desenvolvimento e o uso da IA – imparcialidade, confiabilidade e segurança, privacidade e segurança, inclusão, transparência e responsabilidade. Para nós, esses princípios são a base de uma abordagem de uso de IA responsável e confiável, especialmente na medida que a tecnologia inteligente se torna cada vez mais predominante nos produtos e nos serviços que usamos todos os dias.
