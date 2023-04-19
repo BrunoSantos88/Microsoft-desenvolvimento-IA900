@@ -1,6 +1,6 @@
 # Introdução
 
-# A detecção de anomalias é uma técnica de inteligência artificial usada para determinar se os valores de uma série estão dentro dos parâmetros esperados.
+A detecção de anomalias é uma técnica de inteligência artificial usada para determinar se os valores de uma série estão dentro dos parâmetros esperados.
 
 Há muitos cenários em que a detecção de anomalias é útil. Por exemplo, um sistema Smart HVAC pode usar a detecção de anomalias para monitorar temperaturas em um edifício e gerar um alerta se a temperatura estiver acima ou abaixo do valor esperado para um determinado período de tempo.
 
@@ -32,3 +32,36 @@ A detecção de anomalias é considerada o ato de identificar eventos, ou observ
 
 # Serviço do Detector de Anomalias do Azure
 O Detector de Anomalias faz parte da categoria Serviços de Decisão nos Serviços Cognitivos do Azure. Ele é um serviço baseado em nuvem que permite monitorar e detectar anomalias em dados de série temporal. Ele não exige que você tenha conhecimento em aprendizado de máquina. Você pode usar a API REST para integrar o Detector de Anomalias a seus aplicativos com relativa facilidade. O serviço usa o conceito de estratégia de "um parâmetro". O principal parâmetro que você precisa personalizar é o de "Sensibilidade", que vai de 1 a 99, de modo a ajustar o resultado para se adequar ao cenário. O serviço pode detectar anomalias em dados históricos de série temporal e também em dados em tempo real, como entrada de streaming de dispositivos IoT, sensores ou outras fontes de entrada de streaming.
+
+
+# Como funciona o Detector de Anomalias
+
+O serviço do Detector de Anomalias identifica anomalias que existem fora do escopo de um limite. O limite é definido usando um valor de sensibilidade. Por padrão, os limites superior e inferior para detecção de anomalias são calculados usando conceitos conhecidos como expectedValue, upperMargin e lowerMargin. Os limites superior e inferior são calculados usando esses três valores. Se um valor exceder o limite, ele será identificado como uma anomalia. Você pode ajustar os limites aplicando marginScale às margens superior e inferior, conforme demonstrado pela fórmula a seguir.
+
+upperBoundary = expectedValue + (100 - marginScale) * upperMargin
+
+# Formato de dados
+O serviço do Detector de Anomalias aceita dados no formato JSON. Você pode usar qualquer dado numérico que tenha registrado ao longo do tempo. Os principais aspectos dos dados enviados incluem a granularidade, um carimbo de data/hora e um valor registrado para esse carimbo de data/hora. Um exemplo de objeto JSON que você pode enviar para a API é mostrado neste exemplo de código. A granularidade é definida como horária e é usada para representar as temperaturas em graus Celsius que foram registradas nos carimbos de data/hora indicados.
+
+#Exemplo
+{
+    "granularity": "hourly",
+    "series": [
+      {
+        "timestamp": "2021-03-01T01:00:00Z",
+        "value": -10.56
+      },
+      {
+        "timestamp": "2021-03-02T02:00:00Z",
+        "value": -8.30
+      },
+      {
+        "timestamp": "2021-03-02T03:00:00Z",
+        "value": -10.30
+      },
+      {
+        "timestamp": "2021-03-02T04:00:00Z",
+        "value": 5.95
+      },
+    ]
+}
