@@ -228,3 +228,14 @@ confiabilidade e segurança </p>
 transparência (correta) </p>
 responsabilidade </p>
 
+# Pergunta 20
+
+Você cria um modelo de aprendizado de máquina usando a interface do usuário (IU) de aprendizado de máquina automatizado.
+Você precisa garantir que o modelo atenda ao princípio de transparência da Microsoft para IA responsável.
+O que você deveria fazer?
+
+A. Defina o tipo de validação como Auto. </p>
+B. Habilite Explique o melhor modelo. (correto) </p>
+C. Defina a métrica primária para precisão. </p>
+D. Definir iterações simultâneas máximas para 0. </p>
+
