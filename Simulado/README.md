@@ -179,3 +179,12 @@ Traduza o texto em uma imagem entre idiomas. </p>
 Detectar rostos em uma imagem. (correto) </p>
 Treine um modelo de classificação de imagem personalizado. </p>
 
+# Pergunta 15
+
+Você realiza um evento de caridade que envolve postar fotos de pessoas usando óculos escuros no Twitter. Você precisa garantir que apenas retweeta fotos que atendam aos seguintes requisitos: - Inclua um ou mais rostos. - Conter pelo menos uma pessoa usando óculos escuros. O que você deve usar para analisar as imagens?
+
+a operação Analisar Imagem no serviço de Visão Computacional
+a operação de detecção no serviço de rosto
+a operação Verificar no serviço Face
+ 
+a operação Descrever Imagem no serviço de Visão Computacional
