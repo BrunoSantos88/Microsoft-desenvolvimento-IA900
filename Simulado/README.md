@@ -163,3 +163,10 @@ detecção de objetos (correta) </p>
 reconhecimento óptico de caracteres (OCR) </p>
 segmentação de cena </p>
 
+# Pergunta 13
+
+A afirmação a seguir é verdadeira ou falso? Se um funcionário estiver usando óculos de sol, o serviço Face sempre falhará em reconhecer o funcionário.
+
+Falso  (correta) </p>
+Verdadeiro </p>
+
