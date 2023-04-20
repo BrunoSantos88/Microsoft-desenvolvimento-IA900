@@ -185,6 +185,13 @@ Você realiza um evento de caridade que envolve postar fotos de pessoas usando �
 
 a operação Analisar Imagem no serviço de Visão Computacional
 a operação de detecção no serviço de rosto
-a operação Verificar no serviço Face
- 
+a operação Verificar no serviço Face (correta)
 a operação Descrever Imagem no serviço de Visão Computacional
+
+# Pergunta 16
+
+Você usa drones para identificar onde as ervas daninhas crescem entre as fileiras de cultivos para enviar uma instrução para a remoção das ervas daninhas. Este é um exemplo de qual tipo de visão computacional?
+
+detecção de objetos (correta)
+reconhecimento óptico de caracteres (OCR)
+segmentação de cena
