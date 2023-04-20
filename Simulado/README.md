@@ -14,6 +14,7 @@ Resultado dos Simualdos ja Efetuados.  </P>
 
 Link: https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
 
+# Perguntas que tive mais dificuldades.
 
 # Pergunta 1
 
