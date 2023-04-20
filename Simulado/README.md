@@ -195,3 +195,13 @@ Você usa drones para identificar onde as ervas daninhas crescem entre as fileir
 detecção de objetos (correta) </p>
 reconhecimento óptico de caracteres (OCR) </p>
 segmentação de cena </p>
+
+# Pergunta 17
+
+Qual serviço de IA você pode usar para interpretar o significado de uma entrada falada do usuário, como "Me ligue mais tarde?"
+
+Análise de Texto </p>
+Tradutor </p>
+Compreensão da linguagem (LUIS) </p>
+Fala (correta) </p>
+
