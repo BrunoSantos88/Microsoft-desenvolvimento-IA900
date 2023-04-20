@@ -154,3 +154,12 @@ Defina o tipo de validação para Automático. <p/>
 Defina o máximo de iterações simultâneas como 0. <p/>
 Habilite Explicar o melhor modelo. (correta) <p/>
 Defina a métrica primária para precisão. <p/>
+
+# Pergunta 12
+
+Você usa drones para identificar onde as ervas daninhas crescem entre as fileiras de cultivos para enviar uma instrução para a remoção das ervas daninhas. Este é um exemplo de qual tipo de visão computacional?
+
+detecção de objetos (correta) </p>
+reconhecimento óptico de caracteres (OCR) </p>
+segmentação de cena </p>
+
