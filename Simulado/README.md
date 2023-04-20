@@ -170,3 +170,12 @@ A afirmação a seguir é verdadeira ou falso? Se um funcionário estiver usando
 Falso  (correta) </p>
 Verdadeiro </p>
 
+# Pergunta 14
+
+Quais são as duas tarefas que podem ser executadas usando o serviço de Pesquisa Visual Computacional?
+
+Reconhecer texto manuscrito. (correto) </p>
+Traduza o texto em uma imagem entre idiomas. </p>
+Detectar rostos em uma imagem. (correto) </p>
+Treine um modelo de classificação de imagem personalizado. </p>
+
