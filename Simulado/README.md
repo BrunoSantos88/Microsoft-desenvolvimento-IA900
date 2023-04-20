@@ -8,7 +8,7 @@ Resultado dos Simualdos ja Efetuados.  </P>
 - Simulado -Teste-- 79% </p>
 - Simulado -Final-- 120 pontos de 150 perguntas </p>
 - Simulado(microsoft) - 60%  </P> 
-- 
+
 - Primeira Tentatica IA-900 - 650 pontos
 
 
