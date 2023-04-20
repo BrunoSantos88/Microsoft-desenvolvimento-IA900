@@ -140,4 +140,13 @@ Escolha a opção correta para completar a frase___________________ é usada par
 Treinamento de modelo  <p/>
 Engenharia de recursos * <p/>
 Seleção de recursos   <p/>
-Avaliação do modelo <p/>
+Avaliação do modelo  <p/>
+
+# Pergunta 11
+
+Você cria um modelo de aprendizado de máquina usando a interface de usuário (IU) de aprendizado de máquina automatizada. Você precisa garantir que o modelo atenda ao princípio de transparência da Microsoft para IA responsável. O que você deveria fazer?
+
+Defina o tipo de validação para Automático. <p/>
+Defina o máximo de iterações simultâneas como 0. <p/>
+Habilite Explicar o melhor modelo. * <p/>
+Defina a métrica primária para precisão. <p/>
