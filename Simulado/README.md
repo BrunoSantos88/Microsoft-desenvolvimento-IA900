@@ -217,6 +217,8 @@ CSV </p>
 DOC (correto)   </p>
 PDF (correto)   </p>
 
+# Pergunta 19
+
 Qual princípio de inteligência artificial (IA) responsável aumenta a conscientização sobre as limitações das soluções baseadas em IA?
 
 Selecione apenas uma resposta.
