@@ -142,7 +142,7 @@ Link: https://learn.microsoft.com/pt-br/training/modules/detect-analyze-faces/
 Escolha a opção correta para completar a frase___________________ é usada para gerar recursos adicionais. <p/>
 
 Treinamento de modelo  <p/>
-Engenharia de recursos * <p/>
+Engenharia de recursos (correta) <p/>
 Seleção de recursos   <p/>
 Avaliação do modelo  <p/>
 
@@ -152,5 +152,5 @@ Você cria um modelo de aprendizado de máquina usando a interface de usuário (
 
 Defina o tipo de validação para Automático. <p/>
 Defina o máximo de iterações simultâneas como 0. <p/>
-Habilite Explicar o melhor modelo. * <p/>
+Habilite Explicar o melhor modelo. (correta) <p/>
 Defina a métrica primária para precisão. <p/>
