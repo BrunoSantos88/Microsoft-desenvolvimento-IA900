@@ -239,3 +239,13 @@ B. Habilite Explique o melhor modelo. (correto) </p>
 C. Defina a métrica primária para precisão. </p>
 D. Definir iterações simultâneas máximas para 0. </p>
 
+# Pergunta 21 
+
+Quando você projeta um sistema de IA para avaliar se os empréstimos devem ser aprovados, os fatores usados ​​para tomar a decisão devem ser explicáveis.
+Este é um exemplo de qual princípio orientador da Microsoft para IA responsável?
+
+A. transparência (correta) </p>
+B. inclusão </p> </p>
+C. justiça </p>
+D. privacidade e segurança </p>
+
