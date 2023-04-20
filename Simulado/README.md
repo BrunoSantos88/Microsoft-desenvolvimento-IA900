@@ -132,3 +132,12 @@ Visão personalizada </p>
 
 Link: https://learn.microsoft.com/pt-br/azure/cognitive-services/computer-vision/overview-identity </p>
 Link: https://learn.microsoft.com/pt-br/training/modules/detect-analyze-faces/
+
+# Pergunta 10
+
+Escolha a opção correta para completar a frase___________________ é usada para gerar recursos adicionais. <p/>
+
+Treinamento de modelo  <p/>
+Engenharia de recursos * <p/>
+Seleção de recursos   <p/>
+Avaliação do modelo <p/>
