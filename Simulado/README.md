@@ -205,3 +205,15 @@ Tradutor </p>
 Compreensão da linguagem (LUIS) </p>
 Fala (correta) </p>
 
+# Pergunta 18
+
+Quais são os dois tipos de arquivos que podem ser importados para gerar uma base de conhecimento para uso com o Azure Bot Service? Cada resposta correta apresenta uma solução completa.
+
+Selecione todas as respostas que se aplicam.
+
+MP4 </p>
+fecho eclair </p>
+CSV </p>
+DOC (correto)   </p>
+PDF (correto)   </p>
+
