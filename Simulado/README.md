@@ -183,15 +183,15 @@ Treine um modelo de classificação de imagem personalizado. </p>
 
 Você realiza um evento de caridade que envolve postar fotos de pessoas usando óculos escuros no Twitter. Você precisa garantir que apenas retweeta fotos que atendam aos seguintes requisitos: - Inclua um ou mais rostos. - Conter pelo menos uma pessoa usando óculos escuros. O que você deve usar para analisar as imagens?
 
-a operação Analisar Imagem no serviço de Visão Computacional
-a operação de detecção no serviço de rosto
-a operação Verificar no serviço Face (correta)
-a operação Descrever Imagem no serviço de Visão Computacional
+a operação Analisar Imagem no serviço de Visão Computacional  </p>
+a operação de detecção no serviço de rosto </p>
+a operação Verificar no serviço Face (correta) </p>
+a operação Descrever Imagem no serviço de Visão Computacional </p>
 
 # Pergunta 16
 
 Você usa drones para identificar onde as ervas daninhas crescem entre as fileiras de cultivos para enviar uma instrução para a remoção das ervas daninhas. Este é um exemplo de qual tipo de visão computacional?
 
-detecção de objetos (correta)
-reconhecimento óptico de caracteres (OCR)
-segmentação de cena
+detecção de objetos (correta) </p>
+reconhecimento óptico de caracteres (OCR) </p>
+segmentação de cena </p>
