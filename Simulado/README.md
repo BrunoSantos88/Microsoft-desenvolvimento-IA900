@@ -249,3 +249,14 @@ B. inclusão </p> </p>
 C. justiça </p>
 D. privacidade e segurança </p>
 
+# Pergunta 22
+
+Você cria um modelo de aprendizado de máquina usando a interface do usuário (IU) de aprendizado de máquina automatizado.</p>
+Você precisa garantir que o modelo atenda ao princípio de transparência da Microsoft para IA responsável.</p>
+O que você deveria fazer?</p>
+
+A. Defina o tipo de validação como Auto. </p>
+B. Habilite Explique o melhor modelo. (correto)  </p>
+C. Defina a métrica primária para precisão. </p>
+D. Definir iterações simultâneas máximas para 0. </p>
+
