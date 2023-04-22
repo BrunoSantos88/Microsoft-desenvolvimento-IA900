@@ -266,8 +266,8 @@ D. Definir iterações simultâneas máximas para 0. </p>
 Quais são os dois idiomas que você pode usar para escrever código personalizado para o designer do Azure Machine Learning? Cada resposta correta apresenta uma solução completa.
 
 NOTA: Cada seleção correta vale um ponto.</p>
-A. Python </p>
-B.R _ </p>
+A. Python (correto) </p>
+B.R _  (correto)</p>
 C.C # </p>
 D. Scala </p>
 
