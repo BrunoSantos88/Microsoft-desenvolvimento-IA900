@@ -112,9 +112,8 @@ Esse cenário de bebidas gaseificadas é um exemplo de onde você pode usar a de
 
 Você pode usar o serviço do Detector de Anomalias para criar um aplicativo de monitoramento configurado com os critérios acima para executar o monitoramento de temperatura em tempo real. Você pode executar a detecção de anomalias usando técnicas de streaming e detecção de lote. A detecção de streaming é mais útil para monitorar requisitos de armazenamento críticos que devem ser acionados imediatamente. Os sensores monitorarão a temperatura dentro do compartimento e enviarão essas leituras para seu aplicativo ou um hub de eventos no Azure. O Detector de Anomalias avaliará os pontos de dados de streaming e determinará se um ponto é uma anomalia.
 
-# Exercício
+# Exercício Pratico
 
 Para testar os recursos do serviço de Detecção de Anomalias, usaremos um aplicativo de linha de comando simples que é executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam a soluções do mundo real, como sites ou aplicativos de telefone.
 
-Lab: 19/04 </p>
 Link: https://learn.microsoft.com/pt-br/training/modules/intro-to-anomaly-detector/4a-exercise
