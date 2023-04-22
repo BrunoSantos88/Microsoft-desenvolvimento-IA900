@@ -21,7 +21,7 @@ As soluções podem não funcionar para todos	Um assistente de automação resid
 Os usuários devem confiar em um sistema complexo	Uma ferramenta financeira baseada em IA faz recomendações de investimento - em que elas se baseiam? </P>
 Quem é responsável pelas decisões baseadas em IA?	Uma pessoa inocente é condenada por um crime com base em evidências de reconhecimento facial – quem é o responsável? </p>
 
-# Exercício – Criar um bot
+# Exercício Pratico – Criar um bot
 
 Para cenários de suporte ao cliente, é comum criar um bot que possa interpretar e responder a perguntas frequentes por meio de uma janela de chat no site, email ou interface de voz. Sob a interface do bot há uma base de dados de conhecimento de perguntas e respostas apropriadas na qual o bot pode pesquisar em busca de respostas adequadas.
 
