@@ -74,8 +74,8 @@ Link: https://learn.microsoft.com/pt-br/azure/cognitive-services/speech-service/
 Idiomas de conversão de Texto em Fala. </p>
 link: https://learn.microsoft.com/pt-br/azure/cognitive-services/speech-service/language-support?tabs=stt#text-to-speech
 
-# Exercício – explorar fala
-lab 17/04 </p>
+# Exercício Pratico – explorar fala
+
 Link: https://learn.microsoft.com/pt-br/training/modules/recognize-synthesize-speech/3-exercise-transcribe-speech-use-azure
 
 
