@@ -272,6 +272,8 @@ B.R _  (correto)</p>
 C.C # </p>
 D. Scala </p>
 
+# Pergunta 24
+
 Sua empresa deseja construir uma máquina de reciclagem de garrafas. A máquina de reciclagem deve identificar automaticamente as garrafas da forma correta e rejeitar todos os outros itens.
 
 Que tipo de carga de trabalho de IA a empresa deve usar? </p>
