@@ -10,7 +10,8 @@ Resultado dos Simualdos ja Efetuados.  </P>
 - Simulado -Final-- 150 pontos de 150 perguntas </p>
 - Simulado(microsoft) - 78%  </P> 
 
-- Primeira Tentativa IA-900 - 650 pontos
+- Primeira Tentativa IA-900 - 650 pontos </p>
+- Segunda Tentativa IA-900 -- 800 pontos
 
 
 Link: https://learn.microsoft.com/en-us//certifications/exams/ai-900//practice/assessment?assessmentId=26&assessment-type=practice
