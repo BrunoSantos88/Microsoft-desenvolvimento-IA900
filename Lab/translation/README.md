@@ -57,7 +57,7 @@ O idioma de origem deve ser especificado usando o idioma estendido e o formato d
 
 Os idiomas de destino devem ser especificados usando um código de idioma de dois caracteres, como en para inglês ou de para alemão.
 
-# Exercício – Traduzir texto e fala
+# Exercício Pratico – Traduzir texto e fala
 
 Uma das forças motrizes que permitiu o desenvolvimento da civilização humana é a capacidade de comunicação mútua. Na maioria das empreitadas humanas, a comunicação é fundamental.
 
@@ -65,7 +65,6 @@ A IA (Inteligência Artificial) pode ajudar a simplificar a comunicação traduz
 
 Para testar os recursos do serviço de Tradução, usaremos um aplicativo de linha de comando simples que é executado no Cloud Shell. Os mesmos princípios e funcionalidades se aplicam em soluções do mundo real, como sites ou aplicativos de telefone.
 
-Lab 17/04 </p>
 Link: https://learn.microsoft.com/pt-br/training/modules/translate-text-with-translation-service/3-exercise-translate-text-use-azure
 
 
