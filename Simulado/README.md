@@ -261,3 +261,13 @@ B. Habilite Explique o melhor modelo. (correto)  </p>
 C. Defina a métrica primária para precisão. </p>
 D. Definir iterações simultâneas máximas para 0. </p>
 
+# Pergunta 23
+
+Quais são os dois idiomas que você pode usar para escrever código personalizado para o designer do Azure Machine Learning? Cada resposta correta apresenta uma solução completa.
+
+NOTA: Cada seleção correta vale um ponto.</p>
+A. Python </p>
+B.R _ </p>
+C.C # </p>
+D. Scala </p>
+
